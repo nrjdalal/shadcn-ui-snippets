@@ -1,5 +1,5 @@
 {
-  "shadcn/ui": {
+  "Accordion": {
     "prefix": "shadcn-accordion",
     "body": [
       "<Accordion type=\"single\" collapsible>",
@@ -15,7 +15,7 @@
     "description": "https://ui.shadcn.com/docs/components"
   },
 
-  "shadcn/ui": {
+  "Alert": {
     "prefix": "shadcn-alert",
     "body": [
       "<Alert>",

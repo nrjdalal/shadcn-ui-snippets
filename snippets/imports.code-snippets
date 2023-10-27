@@ -1,5 +1,5 @@
 {
-  "shadcn/ui": {
+  "Accordion": {
     "prefix": "shadcn-accordion-import",
     "body": [
       "import {",
@@ -13,7 +13,7 @@
     "description": "https://ui.shadcn.com/docs/components"
   },
 
-  "shadcn/ui": {
+  "Alert": {
     "prefix": "shadcn-alert-import",
     "body": [
       "import { Alert, AlertDescription, AlertTitle } from \"@/components/ui/alert\"",
