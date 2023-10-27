@@ -97,6 +97,24 @@
     "description": "https://ui.shadcn.com/docs/components"
   },
 
+  "Badge Destructive": {
+    "prefix": ["shadcn-x-badge-destructive", "cnx-badge-destructive"],
+    "body": ["<Badge variant=\"destructive\">Badge</Badge>", ""],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Badge Outline": {
+    "prefix": ["shadcn-x-badge-outline", "cnx-badge-outline"],
+    "body": ["<Badge variant=\"outline\">Badge</Badge>", ""],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Badge Secondary": {
+    "prefix": ["shadcn-x-badge-secondary", "cnx-badge-secondary"],
+    "body": ["<Badge variant=\"secondary\">Badge</Badge>", ""],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
   "Button": {
     "prefix": ["shadcn-x-button", "cnx-button"],
     "body": ["<Button>Submit</Button>", ""],
