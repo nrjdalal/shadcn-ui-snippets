@@ -39,5 +39,16 @@
       ""
     ],
     "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Aspect Ratio": {
+    "prefix": "shadcn-aspect-ratio-import",
+    "body": [
+      "import Image from \"next/image\"",
+      "",
+      "import { AspectRatio } from \"@/components/ui/aspect-ratio\"",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components"
   }
 }
