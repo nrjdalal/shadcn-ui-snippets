@@ -25,7 +25,6 @@
       "  </AlertDescription>",
       "</Alert>",
       ""
-    ],
-    "description": "shadcn/ui Alert"
+    ]
   }
 }
