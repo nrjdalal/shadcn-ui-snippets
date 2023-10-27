@@ -89,12 +89,13 @@ export default function Page() {
 }
 ```
 
-### Components added so far
+### Components/Pages added so far
 
 - Accordion
 - Alert
 - Alert Dialog
 - Aspect Ratio
+- Form
 - ... more to be added soon
 
 ### How to contribute?
