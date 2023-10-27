@@ -4,6 +4,8 @@
 
 To import the `Alert` component, type `si-alert` in your tsx file and to use it, use `su-alert`.
 
+> Similarly, for other components, use `si-` to import and `su-` to use.
+
 ```tsx
 // si-alert
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
