@@ -1,4 +1,17 @@
 {
+  "https://ui.shadcn.com/docs/components/accordion": {
+    "prefix": "shadcn-import-accordion",
+    "body": [
+      "import {",
+      "  Accordion,",
+      "  AccordionContent,",
+      "  AccordionItem,",
+      "  AccordionTrigger,",
+      "} from \"@/components/ui/accordion\"",
+      ""
+    ]
+  },
+
   "Imports to display a callout for user attention.": {
     "prefix": "shadcn-import-alert",
     "body": [

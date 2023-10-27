@@ -22,5 +22,6 @@ import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 
 ### Components added so far
 
+- Accordion
 - Alert
 - ... more to be added soon
