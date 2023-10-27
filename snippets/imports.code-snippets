@@ -263,7 +263,7 @@
   },
 
   "Scroll Area": {
-    "prefix": "shadcn-",
+    "prefix": "shadcn-scroll-area-import",
     "body": ["import { ScrollArea } from \"@/components/ui/scroll-area\"", ""],
     "description": "https://ui.shadcn.com/docs/components"
   },
