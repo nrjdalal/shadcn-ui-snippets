@@ -2,15 +2,15 @@
 
 ### How to use?
 
-To import the `Alert` component, type `si-alert` in your tsx file and to use it, use `su-alert`.
+To import the `Alert` component, type `shadcn-import-alert` in your tsx file and to use it, use `shadcn-use-alert`.
 
-> Similarly, for other components, use `si-` to import and `su-` to use.
+> Similarly, for other components, use `shadcn-import-` to import and `shadcn-use-` to use.
 
 ```tsx
-// si-alert
+// shadcn-import-alert
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 
-// su-alert
+// shadcn-use-alert
 <Alert>
   <Terminal className="h-4 w-4" />
   <AlertTitle>Heads up!</AlertTitle>
