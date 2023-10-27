@@ -20,5 +20,24 @@
       ""
     ],
     "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Alert Dialog": {
+    "prefix": "shadcn-alert-dialog-import",
+    "body": [
+      "import {",
+      "  AlertDialog,",
+      "  AlertDialogAction,",
+      "  AlertDialogCancel,",
+      "  AlertDialogContent,",
+      "  AlertDialogDescription,",
+      "  AlertDialogFooter,",
+      "  AlertDialogHeader,",
+      "  AlertDialogTitle,",
+      "  AlertDialogTrigger,",
+      "} from \"@/components/ui/alert-dialog\"",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components"
   }
 }
