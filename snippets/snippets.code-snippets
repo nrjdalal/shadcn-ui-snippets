@@ -1,5 +1,5 @@
 {
-  "Displays a callout for user attention.": {
+  "Imports to display a callout for user attention.": {
     "prefix": "si-alert",
     "body": [
       "import { Alert, AlertDescription, AlertTitle } from \"@/components/ui/alert\"",
