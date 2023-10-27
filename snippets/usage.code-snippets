@@ -80,7 +80,7 @@
 
   "Badge": {
     "prefix": "shadcn-badge",
-    "body": ["<Badge variant=\"outline\">Badge</Badge>", ""],
+    "body": ["<Badge>Badge</Badge>", ""],
     "description": "https://ui.shadcn.com/docs/components"
   },
 
