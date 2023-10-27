@@ -39,6 +39,14 @@
       {
         "language": "typescriptreact",
         "path": "./snippets/usage.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/pages.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/pages.code-snippets"
       }
     ]
   },
