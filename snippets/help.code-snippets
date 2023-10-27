@@ -1,27 +1,13 @@
 {
-  "shadcn/ui snippets help": {
+  "shadcn/ui help": {
     "prefix": ["shadcn-help", "cn-help"],
     "body": [
-      "[",
-      "  {",
-      "    // cni-[component] to add imports for component\",",
-      "    \"cni-button\": `",
-      "    ",
-      "import {",
-      "  Button",
-      "} from \"@/components/ui/button\"",
+      "// cni-[component] e.g. cni-button",
+      "import { Button } from \"@/components/ui/button\"",
       "",
-      "    `,",
-      "  },",
-      "  {",
-      "    // cnx-[component] to use the jsx/tsx component\",",
-      "    \"cnx-button\": `",
-      "",
-      "<Button>Submit</Button>",
-      "",
-      "    `,",
-      "  },",
-      "]"
+      "// cnx-[component] e.g. cnx-button",
+      "<Button> Submit </Button>",
+      ""
     ]
   }
 }
