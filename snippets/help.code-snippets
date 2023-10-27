@@ -1,0 +1,17 @@
+{
+  "shadcn/ui snippets help": {
+    "prefix": ["shadcn-help", "cn-help"],
+    "body": [
+      "// to add imports for component",
+      "// cni-[component] like cni-card",
+      "",
+      "// to use the jsx/tsx component",
+      "// cnx-[component] like cnx-card",
+      "",
+      "// to use page based components",
+      "// cnp-[component] like cnp-form",
+      "",
+      "// Visit https://github.com/nrjdalal/shadcn-ui-snippets to learn more"
+    ]
+  }
+}
