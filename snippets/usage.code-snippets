@@ -1,6 +1,6 @@
 {
   "shadcn/ui Accordion": {
-    "prefix": "shadcn-import-accordion",
+    "prefix": "shadcn-use-accordion",
     "body": [
       "<Accordion type=\"single\" collapsible>",
       "  <AccordionItem value=\"item-1\">",
@@ -15,7 +15,7 @@
   },
 
   "shadcn/ui Alert": {
-    "prefix": "shadcn-usage-alert",
+    "prefix": "shadcn-use-alert",
     "body": [
       "<Alert>",
       "  <Terminal className=\"h-4 w-4\" />",
