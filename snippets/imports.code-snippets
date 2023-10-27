@@ -62,8 +62,14 @@
   },
 
   "Badge": {
-    "prefix": "shadcn-badge",
+    "prefix": "shadcn-badge-import",
     "body": ["import { Badge } from \"@/components/ui/badge\"", ""],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Button": {
+    "prefix": "shadcn-button-import",
+    "body": ["import { Button } from \"@/components/ui/button\"", ""],
     "description": "https://ui.shadcn.com/docs/components"
   }
 }

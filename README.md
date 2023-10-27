@@ -105,6 +105,7 @@ export default function Page() {
 - Aspect Ratio
 - Avatar
 - Badge
+- Button
 - Form
 - ... more to be added soon
 

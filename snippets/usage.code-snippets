@@ -82,5 +82,11 @@
     "prefix": "shadcn-badge",
     "body": ["<Badge variant=\"outline\">Badge</Badge>", ""],
     "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Button": {
+    "prefix": "shadcn-button",
+    "body": ["<Button>Submit</Button>", ""],
+    "description": "https://ui.shadcn.com/docs/components"
   }
 }
