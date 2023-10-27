@@ -27,5 +27,42 @@
       ""
     ],
     "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Alert Dialog": {
+    "prefix": "shadcn-alert-dialog",
+    "body": [
+      "<AlertDialog>",
+      "  <AlertDialogTrigger>Open</AlertDialogTrigger>",
+      "  <AlertDialogContent>",
+      "    <AlertDialogHeader>",
+      "      <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>",
+      "      <AlertDialogDescription>",
+      "        This action cannot be undone. This will permanently delete your account",
+      "        and remove your data from our servers.",
+      "      </AlertDialogDescription>",
+      "    </AlertDialogHeader>",
+      "    <AlertDialogFooter>",
+      "      <AlertDialogCancel>Cancel</AlertDialogCancel>",
+      "      <AlertDialogAction>Continue</AlertDialogAction>",
+      "    </AlertDialogFooter>",
+      "  </AlertDialogContent>",
+      "</AlertDialog>",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Aspect Ratio": {
+    "prefix": "shadcn-aspect-ratio",
+    "body": [
+      "<div className=\"w-[450px]\">",
+      "  <AspectRatio ratio={16 / 9}>",
+      "    <Image src=\"...\" alt=\"Image\" className=\"rounded-md object-cover\" />",
+      "  </AspectRatio>",
+      "</div>",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components"
   }
 }
