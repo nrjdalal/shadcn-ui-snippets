@@ -76,5 +76,11 @@
       ""
     ],
     "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Badge": {
+    "prefix": "shadcn-badge",
+    "body": ["<Badge variant=\"outline\">Badge</Badge>", ""],
+    "description": "https://ui.shadcn.com/docs/components"
   }
 }
