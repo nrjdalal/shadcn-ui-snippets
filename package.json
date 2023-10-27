@@ -1,0 +1,20 @@
+{
+  "name": "shadcn-ui-snippets",
+  "displayName": "shadcn/ui snippets",
+  "description": "All snippets for shadcn/ui",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
