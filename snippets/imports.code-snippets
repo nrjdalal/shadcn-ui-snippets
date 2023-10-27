@@ -71,5 +71,307 @@
     "prefix": "shadcn-button-import",
     "body": ["import { Button } from \"@/components/ui/button\"", ""],
     "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Card": {
+    "prefix": "shadcn-card-import",
+    "body": [
+      "import {",
+      "  Card,",
+      "  CardContent,",
+      "  CardDescription,",
+      "  CardFooter,",
+      "  CardHeader,",
+      "  CardTitle,",
+      "} from \"@/components/ui/card\"",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Checkbox": {
+    "prefix": "shadcn-checkbox-import",
+    "body": ["import { Checkbox } from \"@/components/ui/checkbox\"", ""],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Collapsible": {
+    "prefix": "shadcn-collapsible-import",
+    "body": [
+      "import {",
+      "  Collapsible,",
+      "  CollapsibleContent,",
+      "  CollapsibleTrigger,",
+      "} from \"@/components/ui/collapsible\"",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Command": {
+    "prefix": "shadcn-command-import",
+    "body": [
+      "import {",
+      "  Command,",
+      "  CommandDialog,",
+      "  CommandEmpty,",
+      "  CommandGroup,",
+      "  CommandInput,",
+      "  CommandItem,",
+      "  CommandList,",
+      "  CommandSeparator,",
+      "  CommandShortcut,",
+      "} from \"@/components/ui/command\"",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Context Menu": {
+    "prefix": "shadcn-context-menu-import",
+    "body": [
+      "import {",
+      "  ContextMenu,",
+      "  ContextMenuContent,",
+      "  ContextMenuItem,",
+      "  ContextMenuTrigger,",
+      "} from \"@/components/ui/context-menu\"",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Dialog": {
+    "prefix": "shadcn-dialog-import",
+    "body": [
+      "import {",
+      "  Dialog,",
+      "  DialogContent,",
+      "  DialogDescription,",
+      "  DialogHeader,",
+      "  DialogTitle,",
+      "  DialogTrigger,",
+      "} from \"@/components/ui/dialog\"",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Dropdown Menu": {
+    "prefix": "shadcn-dropdown-menu-import",
+    "body": [
+      "import {",
+      "  DropdownMenu,",
+      "  DropdownMenuContent,",
+      "  DropdownMenuItem,",
+      "  DropdownMenuLabel,",
+      "  DropdownMenuSeparator,",
+      "  DropdownMenuTrigger,",
+      "} from \"@/components/ui/dropdown-menu\"",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Hover Card": {
+    "prefix": "shadcn-hover-card-import",
+    "body": [
+      "import {",
+      "  HoverCard,",
+      "  HoverCardContent,",
+      "  HoverCardTrigger,",
+      "} from \"@/components/ui/hover-card\"",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Input": {
+    "prefix": "shadcn-input-import",
+    "body": ["import { Input } from \"@/components/ui/input\"", ""],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Label": {
+    "prefix": "shadcn-label-import",
+    "body": ["import { Label } from \"@/components/ui/label\"", ""],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Menubar": {
+    "prefix": "shadcn-menubar-import",
+    "body": [
+      "import {",
+      "  Menubar,",
+      "  MenubarContent,",
+      "  MenubarItem,",
+      "  MenubarMenu,",
+      "  MenubarSeparator,",
+      "  MenubarShortcut,",
+      "  MenubarTrigger,",
+      "} from \"@/components/ui/menubar\"",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Navigation Menu": {
+    "prefix": "shadcn-navigation-menu-import",
+    "body": [
+      "import {",
+      "  NavigationMenu,",
+      "  NavigationMenuContent,",
+      "  NavigationMenuIndicator,",
+      "  NavigationMenuItem,",
+      "  NavigationMenuLink,",
+      "  NavigationMenuList,",
+      "  NavigationMenuTrigger,",
+      "  NavigationMenuViewport,",
+      "} from \"@/components/ui/navigation-menu\"",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Popover": {
+    "prefix": "shadcn-popover-import",
+    "body": [
+      "import {",
+      "  Popover,",
+      "  PopoverContent,",
+      "  PopoverTrigger,",
+      "} from \"@/components/ui/popover\"",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Progress": {
+    "prefix": "shadcn-progress-import",
+    "body": ["import { Progress } from \"@/components/ui/progress\"", ""],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Radio Group": {
+    "prefix": "shadcn-radio-group-import",
+    "body": [
+      "import { Label } from \"@/components/ui/label\"",
+      "import { RadioGroup, RadioGroupItem } from \"@/components/ui/radio-group\"",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Scroll Area": {
+    "prefix": "shadcn-",
+    "body": ["import { ScrollArea } from \"@/components/ui/scroll-area\"", ""],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Select": {
+    "prefix": "shadcn-select-import",
+    "body": [
+      "import {",
+      "  Select,",
+      "  SelectContent,",
+      "  SelectItem,",
+      "  SelectTrigger,",
+      "  SelectValue,",
+      "} from \"@/components/ui/select\"",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Separator": {
+    "prefix": "shadcn-separator-import",
+    "body": ["import { Separator } from \"@/components/ui/separator\"", ""],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Sheet": {
+    "prefix": "shadcn-sheet-import",
+    "body": [
+      "import {",
+      "  Sheet,",
+      "  SheetContent,",
+      "  SheetDescription,",
+      "  SheetHeader,",
+      "  SheetTitle,",
+      "  SheetTrigger,",
+      "} from \"@/components/ui/sheet\"",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Skeleton": {
+    "prefix": "shadcn-skeleton-import",
+    "body": ["import { Skeleton } from \"@/components/ui/skeleton\"", ""],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Slider": {
+    "prefix": "shadcn-slider-import",
+    "body": ["import { Slider } from \"@/components/ui/slider\"", ""],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Switch": {
+    "prefix": "shadcn-switch-import",
+    "body": ["import { Switch } from \"@/components/ui/switch\"", ""],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Table": {
+    "prefix": "shadcn-table-import",
+    "body": [
+      "import {",
+      "  Table,",
+      "  TableBody,",
+      "  TableCaption,",
+      "  TableCell,",
+      "  TableHead,",
+      "  TableHeader,",
+      "  TableRow,",
+      "} from \"@/components/ui/table\"",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Tabs": {
+    "prefix": "shadcn-tabs-import",
+    "body": [
+      "import { Tabs, TabsContent, TabsList, TabsTrigger } from \"@/components/ui/tabs\"",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Textarea": {
+    "prefix": "shadcn-textarea-import",
+    "body": ["import { Textarea } from \"@/components/ui/textarea\"", ""],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Toggle": {
+    "prefix": "shadcn-toggle-import",
+    "body": ["import { Toggle } from \"@/components/ui/toggle\"", ""],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Tooltip": {
+    "prefix": "shadcn-tooltip-import",
+    "body": [
+      "import {",
+      "  Tooltip,",
+      "  TooltipContent,",
+      "  TooltipProvider,",
+      "  TooltipTrigger,",
+      "} from \"@/components/ui/tooltip\"",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components"
   }
 }

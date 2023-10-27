@@ -97,23 +97,15 @@ export default function Page() {
 }
 ```
 
-### Components/Pages added so far
-
-- Accordion
-- Alert
-- Alert Dialog
-- Aspect Ratio
-- Avatar
-- Badge
-- Button
-- Form
-- ... more to be added soon
-
 ### To be added later
 
-> Some components require useState, etc to also be imported, so they will be added later.
+> Some components require useState, etc to also be used, so they will be added later.
 
 - Calendar
+- Combobox
+- Data Table
+- Date Picker
+- Toast
 
 ### How to contribute?
 
