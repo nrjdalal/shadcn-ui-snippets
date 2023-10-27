@@ -11,7 +11,8 @@
       "  </AccordionItem>",
       "</Accordion>",
       ""
-    ]
+    ],
+    "description": "https://ui.shadcn.com/docs/components"
   },
 
   "shadcn/ui Alert": {
@@ -25,6 +26,7 @@
       "  </AlertDescription>",
       "</Alert>",
       ""
-    ]
+    ],
+    "description": "https://ui.shadcn.com/docs/components"
   }
 }
