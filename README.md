@@ -109,6 +109,12 @@ export default function Page() {
 - Form
 - ... more to be added soon
 
+### To be added later
+
+> Some components require useState, etc to also be imported, so they will be added later.
+
+- Calendar
+
 ### How to contribute?
 
 Use this link - [Snippet Generation](https://snippet-generator.app/?description=https%3A%2F%2Fui.shadcn.com%2Fdocs%2Fcomponents&tabtrigger=shadcn-&snippet=&mode=vscode) to generate snippets and add/update them to the `snippets` folder accordingly.
