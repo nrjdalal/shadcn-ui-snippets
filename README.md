@@ -12,6 +12,7 @@ https://marketplace.visualstudio.com/items?itemName=VeroXyle.shadcn-ui-snippets
 
 | Snippet           | Description                            |
 | ----------------- | -------------------------------------- |
+| `cn-help`         | How to use shadcn/ui snippets          |
 | `cni-[component]` | Adds imports for the component         |
 | `cnx-[component]` | Adds jsx/tsx for the component         |
 | `cnp-[component]` | Adds page based components like 'form' |
