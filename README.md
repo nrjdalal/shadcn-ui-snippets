@@ -8,19 +8,27 @@ https://marketplace.visualstudio.com/items?itemName=VeroXyle.shadcn-ui-snippets
 
 ![shadcn-ui-snippets](https://raw.githubusercontent.com/nrjdalal/shadcn-ui-snippets/main/images/usage.png)
 
+### How it works
+
+| Snippet           | Description                            |
+| ----------------- | -------------------------------------- |
+| `cni-[component]` | Adds imports for the component         |
+| `cnx-[component]` | Adds jsx/tsx for the component         |
+| `cnp-[component]` | Adds page based components like 'form' |
+
 ### How to use?
 
 1. Components
 
-For `Alert` component, type `cni-alert` to add imports in your jsx/tsx file, and to use the component, use `shadcn-alert`.
+For `Alert` component, type `cni-alert` to add imports in your jsx/tsx file, and to use the component, use `cnx-alert`.
 
-> Similarly, for any other component, use `cni-[component]` to add imports and `shadcn-[component]` to use.
+> Similarly, for any other component, use `cni-[component]` to add imports and `cnx-[component]` to use.
 
 ```tsx
 // cni-alert
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 
-// shadcn-alert
+// cnx-alert
 <Alert>
   <AlertTitle>Heads up!</AlertTitle>
   <AlertDescription>
@@ -31,10 +39,10 @@ import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 
 2. Page based components
 
-> Some compenents are page specific and can be imported using `shadcn-page-[component]`, modular parts to be added later.
+> Some compenents are page specific and can be imported using `cnp-[component]`, modular parts to be added later.
 
 ```tsx
-// shadcn-page-form
+// cnp-form
 "use client";
 
 import { zodResolver } from "@hookform/resolvers/zod";

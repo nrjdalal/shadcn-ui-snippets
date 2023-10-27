@@ -1,6 +1,6 @@
 {
   "Form Page": {
-    "prefix": "shadcn-page-form",
+    "prefix": ["shadcn-page-form", "cnp-form"],
     "body": [
       "\"use client\"",
       "",
