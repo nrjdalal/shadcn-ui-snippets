@@ -1,11 +1,23 @@
 {
-  "shadcn/ui help": {
-    "prefix": ["shadcn-help", "cn-help"],
+  "shadcn/ui help cn": {
+    "prefix": ["cn-help"],
     "body": [
       "// cni-[component] e.g. cni-button",
       "import { Button } from \"@/components/ui/button\"",
       "",
       "// cnx-[component] e.g. cnx-button",
+      "<Button> Submit </Button>",
+      ""
+    ]
+  },
+
+  "shadcn/ui help shadcn": {
+    "prefix": ["shadcn-help"],
+    "body": [
+      "// shadcn-i-[component] e.g. shadcn-i-button",
+      "import { Button } from \"@/components/ui/button\"",
+      "",
+      "// shadcn-x-[component] e.g. shadcn-x-button",
       "<Button> Submit </Button>",
       ""
     ]
