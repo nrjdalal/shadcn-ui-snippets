@@ -12,12 +12,12 @@ https://marketplace.visualstudio.com/items?itemName=VeroXyle.shadcn-ui-snippets
 
 1. Components
 
-To import the `Alert` component, type `shadcn-alert-import` in your tsx file and to use it, use `shadcn-alert`.
+For `Alert` component, type `cni-alert` to add imports in your jsx/tsx file, and to use the component, use `shadcn-alert`.
 
-> Similarly, for other components, use `shadcn-[component]-import` to import and `shadcn-[component]` to use.
+> Similarly, for any other component, use `cni-[component]` to add imports and `shadcn-[component]` to use.
 
 ```tsx
-// shadcn-alert-import
+// cni-alert
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 
 // shadcn-alert
