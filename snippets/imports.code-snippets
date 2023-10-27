@@ -50,5 +50,14 @@
       ""
     ],
     "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Avatar": {
+    "prefix": "shadcn-avatar-import",
+    "body": [
+      "import { Avatar, AvatarFallback, AvatarImage } from \"@/components/ui/avatar\"",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components"
   }
 }

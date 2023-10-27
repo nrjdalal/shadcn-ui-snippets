@@ -95,6 +95,7 @@ export default function Page() {
 - Alert
 - Alert Dialog
 - Aspect Ratio
+- Avatar
 - Form
 - ... more to be added soon
 

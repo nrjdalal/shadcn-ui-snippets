@@ -64,5 +64,17 @@
       ""
     ],
     "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Avatar": {
+    "prefix": "shadcn-avatar",
+    "body": [
+      "<Avatar>",
+      "  <AvatarImage src=\"https://github.com/shadcn.png\" />",
+      "  <AvatarFallback>CN</AvatarFallback>",
+      "</Avatar>",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components"
   }
 }
