@@ -110,4 +110,4 @@ export default function Page() {
 
 ### How to contribute?
 
-Use this link - [Snippet Generation](https://snippet-generator.app/?description=https%3A%2F%2Fui.shadcn.com%2Fdocs%2Fcomponents&tabtrigger=shadcn-&snippet=&mode=vscode) to generate snippets for the components and add them to the `snippets` folder accordingly.
+Use this link - [Snippet Generation](https://snippet-generator.app/?description=https%3A%2F%2Fui.shadcn.com%2Fdocs%2Fcomponents&tabtrigger=shadcn-&snippet=&mode=vscode) to generate snippets and add/update them to the `snippets` folder accordingly.
