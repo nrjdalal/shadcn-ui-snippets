@@ -1,5 +1,5 @@
 {
-  "https://ui.shadcn.com/docs/components/accordion": {
+  "shadcn/ui Accordion": {
     "prefix": "shadcn-import-accordion",
     "body": [
       "<Accordion type=\"single\" collapsible>",
@@ -12,5 +12,20 @@
       "</Accordion>",
       ""
     ]
+  },
+
+  "shadcn/ui Alert": {
+    "prefix": "shadcn-usage-alert",
+    "body": [
+      "<Alert>",
+      "  <Terminal className=\"h-4 w-4\" />",
+      "  <AlertTitle>Heads up!</AlertTitle>",
+      "  <AlertDescription>",
+      "    You can add components and dependencies to your app using the cli.",
+      "  </AlertDescription>",
+      "</Alert>",
+      ""
+    ],
+    "description": "shadcn/ui Alert"
   }
 }
