@@ -1,10 +1,19 @@
 # shadcn-ui-snippets
 
-This is the README for your extension "shadcn-ui-snippets". After writing up a brief description, we recommend including the following sections.
+### How to use?
 
-### Alert
+To import the `Alert` component, type `si-alert` in your tsx file and to use it, use `su-alert`.
 
 ```tsx
-// alert
+// si-alert
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+
+// su-alert
+<Alert>
+  <Terminal className="h-4 w-4" />
+  <AlertTitle>Heads up!</AlertTitle>
+  <AlertDescription>
+    You can add components and dependencies to your app using the cli.
+  </AlertDescription>
+</Alert>;
 ```

@@ -1,6 +1,7 @@
 {
   "name": "shadcn-ui-snippets",
   "displayName": "shadcn/ui snippets",
+  "publisher": "VeroXyle",
   "description": "All snippets for shadcn/ui",
   "version": "0.0.1",
   "engines": {
@@ -16,5 +17,9 @@
         "path": "./snippets/snippets.code-snippets"
       }
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nrjdalal/shadcn-ui-snippets"
   }
 }
