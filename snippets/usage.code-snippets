@@ -29,6 +29,19 @@
     "description": "https://ui.shadcn.com/docs/components"
   },
 
+  "Alert Destructive": {
+    "prefix": ["shadcn-x-alert-destructive", "cnx-alert-destructive"],
+    "body": [
+      "<Alert variant=\"destructive\">",
+      "  <AlertTitle>Error</AlertTitle>",
+      "  <AlertDescription>",
+      "    Your session has expired. Please log in again.",
+      "  </AlertDescription>",
+      "</Alert>"
+    ],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
   "Alert Dialog": {
     "prefix": ["shadcn-x-alert-dialog", "cnx-alert-dialog"],
     "body": [
