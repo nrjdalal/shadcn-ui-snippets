@@ -17,3 +17,8 @@ import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
   </AlertDescription>
 </Alert>;
 ```
+
+### Components added so far
+
+- Alert
+- ... more to be added soon

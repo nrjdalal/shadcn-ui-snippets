@@ -2,7 +2,7 @@
   "name": "shadcn-ui-snippets",
   "displayName": "shadcn/ui snippets",
   "publisher": "VeroXyle",
-  "description": "All snippets for shadcn/ui",
+  "description": "Simply import and use shadcn-ui components in your project",
   "version": "0.1.0",
   "engines": {
     "vscode": "^1.83.0"
