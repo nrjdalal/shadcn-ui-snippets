@@ -25,8 +25,20 @@
   "contributes": {
     "snippets": [
       {
+        "language": "javascriptreact",
+        "path": "./snippets/imports.code-snippets"
+      },
+      {
         "language": "typescriptreact",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/imports.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/usage.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/usage.code-snippets"
       }
     ]
   },

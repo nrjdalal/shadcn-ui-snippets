@@ -1,0 +1,14 @@
+{
+  "https://ui.shadcn.com/docs/components/accordion": {
+    "prefix": "shadcn-import-accordion",
+    "body": [
+      "import {",
+      "  Accordion,",
+      "  AccordionContent,",
+      "  AccordionItem,",
+      "  AccordionTrigger,",
+      "} from \"@/components/ui/accordion\"",
+      ""
+    ]
+  }
+}
