@@ -1,6 +1,6 @@
 {
   "shadcn/ui snippets help": {
-    "prefix": "shadcn-help",
+    "prefix": ["shadcn-help", "cn-help"],
     "body": [
       "[",
       "  {",
