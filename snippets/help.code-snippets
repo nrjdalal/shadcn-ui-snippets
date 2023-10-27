@@ -6,17 +6,22 @@
       "  {",
       "    // cni-[component] to add imports for component\",",
       "    \"cni-button\": `",
-      "import { Button } from \"@/components/ui/button\"",
+      "    ",
+      "import {",
+      "  Button",
+      "} from \"@/components/ui/button\"",
+      "",
       "    `,",
       "  },",
       "  {",
       "    // cnx-[component] to use the jsx/tsx component\",",
       "    \"cnx-button\": `",
+      "",
       "<Button>Submit</Button>",
+      "",
       "    `,",
       "  },",
-      "]",
-      ""
+      "]"
     ]
   }
 }
