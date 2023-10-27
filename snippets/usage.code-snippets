@@ -1,6 +1,6 @@
 {
   "Accordion": {
-    "prefix": ["shadcn-accordion", "cnx-accordion"],
+    "prefix": ["shadcn-x-accordion", "cnx-accordion"],
     "body": [
       "<Accordion type=\"single\" collapsible>",
       "  <AccordionItem value=\"item-1\">",
@@ -16,7 +16,7 @@
   },
 
   "Alert": {
-    "prefix": ["shadcn-alert", "cnx-alert"],
+    "prefix": ["shadcn-x-alert", "cnx-alert"],
     "body": [
       "<Alert>",
       "  <AlertTitle>Heads up!</AlertTitle>",
@@ -30,7 +30,7 @@
   },
 
   "Alert Dialog": {
-    "prefix": ["shadcn-alert-dialog", "cnx-alert-dialog"],
+    "prefix": ["shadcn-x-alert-dialog", "cnx-alert-dialog"],
     "body": [
       "<AlertDialog>",
       "  <AlertDialogTrigger>Open</AlertDialogTrigger>",
@@ -54,7 +54,7 @@
   },
 
   "Aspect Ratio": {
-    "prefix": ["shadcn-aspect-ratio", "cnx-aspect-ratio"],
+    "prefix": ["shadcn-x-aspect-ratio", "cnx-aspect-ratio"],
     "body": [
       "<div className=\"w-[450px]\">",
       "  <AspectRatio ratio={16 / 9}>",
@@ -67,7 +67,7 @@
   },
 
   "Avatar": {
-    "prefix": ["shadcn-avatar", "cnx-avatar"],
+    "prefix": ["shadcn-x-avatar", "cnx-avatar"],
     "body": [
       "<Avatar>",
       "  <AvatarImage src=\"https://github.com/shadcn.png\" />",
@@ -79,19 +79,19 @@
   },
 
   "Badge": {
-    "prefix": ["shadcn-badge", "cnx-badge"],
+    "prefix": ["shadcn-x-badge", "cnx-badge"],
     "body": ["<Badge>Badge</Badge>", ""],
     "description": "https://ui.shadcn.com/docs/components"
   },
 
   "Button": {
-    "prefix": ["shadcn-button", "cnx-button"],
+    "prefix": ["shadcn-x-button", "cnx-button"],
     "body": ["<Button>Submit</Button>", ""],
     "description": "https://ui.shadcn.com/docs/components"
   },
 
   "Card": {
-    "prefix": ["shadcn-card", "cnx-card"],
+    "prefix": ["shadcn-x-card", "cnx-card"],
     "body": [
       "<Card>",
       "  <CardHeader>",
@@ -111,13 +111,13 @@
   },
 
   "Checkbox": {
-    "prefix": ["shadcn-checkbox", "cnx-checkbox"],
+    "prefix": ["shadcn-x-checkbox", "cnx-checkbox"],
     "body": ["<Checkbox />", ""],
     "description": "https://ui.shadcn.com/docs/components"
   },
 
   "Collapsible": {
-    "prefix": ["shadcn-collapsible", "cnx-collapsible"],
+    "prefix": ["shadcn-x-collapsible", "cnx-collapsible"],
     "body": [
       "<Collapsible>",
       "  <CollapsibleTrigger>Can I use this in my project?</CollapsibleTrigger>",
@@ -132,7 +132,7 @@
   },
 
   "Command": {
-    "prefix": ["shadcn-command", "cnx-command"],
+    "prefix": ["shadcn-x-command", "cnx-command"],
     "body": [
       "<Command>",
       "  <CommandInput placeholder=\"Type a command or search...\" />",
@@ -157,7 +157,7 @@
   },
 
   "Context Menu": {
-    "prefix": ["shadcn-context-menu", "cnx-context-menu"],
+    "prefix": ["shadcn-x-context-menu", "cnx-context-menu"],
     "body": [
       "<ContextMenu>",
       "  <ContextMenuTrigger>Right click</ContextMenuTrigger>",
@@ -174,7 +174,7 @@
   },
 
   "Dialog": {
-    "prefix": ["shadcn-dialog", "cnx-dialog"],
+    "prefix": ["shadcn-x-dialog", "cnx-dialog"],
     "body": [
       "<Dialog>",
       "  <DialogTrigger>Open</DialogTrigger>",
@@ -194,7 +194,7 @@
   },
 
   "Dropdown Menu": {
-    "prefix": ["shadcn-dropdown-menu", "cnx-dropdown-menu"],
+    "prefix": ["shadcn-x-dropdown-menu", "cnx-dropdown-menu"],
     "body": [
       "<DropdownMenu>",
       "  <DropdownMenuTrigger>Open</DropdownMenuTrigger>",
@@ -213,7 +213,7 @@
   },
 
   "Hover Card": {
-    "prefix": ["shadcn-hover-card", "cnx-hover-card"],
+    "prefix": ["shadcn-x-hover-card", "cnx-hover-card"],
     "body": [
       "<HoverCard>",
       "  <HoverCardTrigger>Hover</HoverCardTrigger>",
@@ -227,19 +227,19 @@
   },
 
   "Input": {
-    "prefix": ["shadcn-input", "cnx-input"],
+    "prefix": ["shadcn-x-input", "cnx-input"],
     "body": ["<Input />", ""],
     "description": "https://ui.shadcn.com/docs/components"
   },
 
   "Label": {
-    "prefix": ["shadcn-label", "cnx-label"],
+    "prefix": ["shadcn-x-label", "cnx-label"],
     "body": ["<Label htmlFor=\"email\">Your email address</Label>", ""],
     "description": "https://ui.shadcn.com/docs/components"
   },
 
   "Menubar": {
-    "prefix": ["shadcn-menubar", "cnx-menubar"],
+    "prefix": ["shadcn-x-menubar", "cnx-menubar"],
     "body": [
       "<Menubar>",
       "  <MenubarMenu>",
@@ -262,7 +262,7 @@
   },
 
   "Navigation Menu": {
-    "prefix": ["shadcn-navigation-menu", "cnx-navigation-menu"],
+    "prefix": ["shadcn-x-navigation-menu", "cnx-navigation-menu"],
     "body": [
       "<NavigationMenu>",
       "  <NavigationMenuList>",
@@ -280,7 +280,7 @@
   },
 
   "Popover": {
-    "prefix": ["shadcn-popover", "cnx-popover"],
+    "prefix": ["shadcn-x-popover", "cnx-popover"],
     "body": [
       "<Popover>",
       "  <PopoverTrigger>Open</PopoverTrigger>",
@@ -292,13 +292,13 @@
   },
 
   "Progress": {
-    "prefix": ["shadcn-progress", "cnx-progress"],
+    "prefix": ["shadcn-x-progress", "cnx-progress"],
     "body": ["<Progress value={33} />", ""],
     "description": "https://ui.shadcn.com/docs/components"
   },
 
   "Radio Group": {
-    "prefix": "shadcn-radio-group",
+    "prefix": "shadcn-x-radio-group",
     "body": [
       "<RadioGroup defaultValue=\"option-one\">",
       "  <div className=\"flex items-center space-x-2\">",
@@ -316,7 +316,7 @@
   },
 
   "Scroll Area": {
-    "prefix": ["shadcn-scroll-area", "cnx-scroll-area"],
+    "prefix": ["shadcn-x-scroll-area", "cnx-scroll-area"],
     "body": [
       "<ScrollArea className=\"h-[200px] w-[350px] rounded-md border p-4\">",
       "  Jokester began sneaking into the castle in the middle of the night and leaving",
@@ -332,7 +332,7 @@
   },
 
   "Select": {
-    "prefix": ["cnx-select", "shadcn-select"],
+    "prefix": ["cnx-select", "shadcn-x-select"],
     "body": [
       "<Select>",
       "  <SelectTrigger className=\"w-[180px]\">",
@@ -350,13 +350,13 @@
   },
 
   "Separator": {
-    "prefix": ["shadcn-separator", "cnx-separator"],
+    "prefix": ["shadcn-x-separator", "cnx-separator"],
     "body": ["<Separator />", ""],
     "description": "https://ui.shadcn.com/docs/components"
   },
 
   "Sheet": {
-    "prefix": ["shadcn-sheet", "cnx-sheet"],
+    "prefix": ["shadcn-x-sheet", "cnx-sheet"],
     "body": [
       "<Sheet>",
       "  <SheetTrigger>Open</SheetTrigger>",
@@ -376,25 +376,25 @@
   },
 
   "Skeleton": {
-    "prefix": ["shadcn-skeleton", "cnx-skeleton"],
+    "prefix": ["shadcn-x-skeleton", "cnx-skeleton"],
     "body": ["<Skeleton className=\"w-[100px] h-[20px] rounded-full\" />", ""],
     "description": "https://ui.shadcn.com/docs/components"
   },
 
   "Slider": {
-    "prefix": ["shadcn-slider", "cnx-slider"],
+    "prefix": ["shadcn-x-slider", "cnx-slider"],
     "body": ["<Slider defaultValue={[33]} max={100} step={1} />", ""],
     "description": "https://ui.shadcn.com/docs/components"
   },
 
   "Switch": {
-    "prefix": ["shadcn-switch", "cnx-switch"],
+    "prefix": ["shadcn-x-switch", "cnx-switch"],
     "body": ["<Switch />", ""],
     "description": "https://ui.shadcn.com/docs/components"
   },
 
   "Table": {
-    "prefix": ["shadcn-table", "cnx-table"],
+    "prefix": ["shadcn-x-table", "cnx-table"],
     "body": [
       "<Table>",
       "  <TableCaption>A list of your recent invoices.</TableCaption>",
@@ -421,7 +421,7 @@
   },
 
   "Tabs": {
-    "prefix": ["shadcn-tabs", "cnx-tabs"],
+    "prefix": ["shadcn-x-tabs", "cnx-tabs"],
     "body": [
       "<Tabs defaultValue=\"account\" className=\"w-[400px]\">",
       "  <TabsList>",
@@ -437,19 +437,19 @@
   },
 
   "Textarea": {
-    "prefix": ["shadcn-textarea", "cnx-textarea"],
+    "prefix": ["shadcn-x-textarea", "cnx-textarea"],
     "body": ["<Textarea />", ""],
     "description": "https://ui.shadcn.com/docs/components"
   },
 
   "Toggle": {
-    "prefix": ["shadcn-toggle", "cnx-toggle"],
+    "prefix": ["shadcn-x-toggle", "cnx-toggle"],
     "body": ["<Toggle>Toggle</Toggle>", ""],
     "description": "https://ui.shadcn.com/docs/components"
   },
 
   "Tooltip": {
-    "prefix": ["shadcn-tooltip", "cnx-tooltip"],
+    "prefix": ["shadcn-x-tooltip", "cnx-tooltip"],
     "body": [
       "<TooltipProvider>",
       "  <Tooltip>",

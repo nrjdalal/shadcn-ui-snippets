@@ -1,6 +1,6 @@
 {
   "Accordion": {
-    "prefix": ["shadcn-accordion-import", "cni-accordion"],
+    "prefix": ["shadcn-i-accordion", "cni-accordion"],
     "body": [
       "import {",
       "  Accordion,",
@@ -14,7 +14,7 @@
   },
 
   "Alert": {
-    "prefix": ["shadcn-alert-import", "cni-alert"],
+    "prefix": ["shadcn-i-alert", "cni-alert"],
     "body": [
       "import { Alert, AlertDescription, AlertTitle } from \"@/components/ui/alert\"",
       ""
@@ -23,7 +23,7 @@
   },
 
   "Alert Dialog": {
-    "prefix": ["shadcn-alert-dialog-import", "cni-alert-dialog"],
+    "prefix": ["shadcn-i-alert-dialog", "cni-alert-dialog"],
     "body": [
       "import {",
       "  AlertDialog,",
@@ -42,7 +42,7 @@
   },
 
   "Aspect Ratio": {
-    "prefix": ["shadcn-aspect-ratio-import", "cni-aspect-ratio"],
+    "prefix": ["shadcn-i-aspect-ratio", "cni-aspect-ratio"],
     "body": [
       "import Image from \"next/image\"",
       "",
@@ -53,7 +53,7 @@
   },
 
   "Avatar": {
-    "prefix": ["shadcn-avatar-import", "cni-avatar"],
+    "prefix": ["shadcn-i-avatar", "cni-avatar"],
     "body": [
       "import { Avatar, AvatarFallback, AvatarImage } from \"@/components/ui/avatar\"",
       ""
@@ -62,19 +62,19 @@
   },
 
   "Badge": {
-    "prefix": ["shadcn-badge-import", "cni-badge"],
+    "prefix": ["shadcn-i-badge", "cni-badge"],
     "body": ["import { Badge } from \"@/components/ui/badge\"", ""],
     "description": "https://ui.shadcn.com/docs/components"
   },
 
   "Button": {
-    "prefix": ["shadcn-button-import", "cni-button"],
+    "prefix": ["shadcn-i-button", "cni-button"],
     "body": ["import { Button } from \"@/components/ui/button\"", ""],
     "description": "https://ui.shadcn.com/docs/components"
   },
 
   "Card": {
-    "prefix": ["shadcn-card-import", "cni-card"],
+    "prefix": ["shadcn-i-card", "cni-card"],
     "body": [
       "import {",
       "  Card,",
@@ -90,13 +90,13 @@
   },
 
   "Checkbox": {
-    "prefix": ["shadcn-checkbox-import", "cni-checkbox"],
+    "prefix": ["shadcn-i-checkbox", "cni-checkbox"],
     "body": ["import { Checkbox } from \"@/components/ui/checkbox\"", ""],
     "description": "https://ui.shadcn.com/docs/components"
   },
 
   "Collapsible": {
-    "prefix": ["shadcn-collapsible-import", "cni-collapsible"],
+    "prefix": ["shadcn-i-collapsible", "cni-collapsible"],
     "body": [
       "import {",
       "  Collapsible,",
@@ -109,7 +109,7 @@
   },
 
   "Command": {
-    "prefix": ["shadcn-command-import", "cni-command"],
+    "prefix": ["shadcn-i-command", "cni-command"],
     "body": [
       "import {",
       "  Command,",
@@ -128,7 +128,7 @@
   },
 
   "Context Menu": {
-    "prefix": ["shadcn-context-menu-import", "cni-context-menu"],
+    "prefix": ["shadcn-i-context-menu", "cni-context-menu"],
     "body": [
       "import {",
       "  ContextMenu,",
@@ -142,7 +142,7 @@
   },
 
   "Dialog": {
-    "prefix": ["shadcn-dialog-import", "cni-dialog"],
+    "prefix": ["shadcn-i-dialog", "cni-dialog"],
     "body": [
       "import {",
       "  Dialog,",
@@ -158,7 +158,7 @@
   },
 
   "Dropdown Menu": {
-    "prefix": ["shadcn-dropdown-menu-import", "cni-dropdown-menu"],
+    "prefix": ["shadcn-i-dropdown-menu", "cni-dropdown-menu"],
     "body": [
       "import {",
       "  DropdownMenu,",
@@ -174,7 +174,7 @@
   },
 
   "Hover Card": {
-    "prefix": ["shadcn-hover-card-import", "cni-hover-card"],
+    "prefix": ["shadcn-i-hover-card", "cni-hover-card"],
     "body": [
       "import {",
       "  HoverCard,",
@@ -187,19 +187,19 @@
   },
 
   "Input": {
-    "prefix": ["shadcn-input-import", "cni-input"],
+    "prefix": ["shadcn-i-input", "cni-input"],
     "body": ["import { Input } from \"@/components/ui/input\"", ""],
     "description": "https://ui.shadcn.com/docs/components"
   },
 
   "Label": {
-    "prefix": ["shadcn-label-import", "cni-label"],
+    "prefix": ["shadcn-i-label", "cni-label"],
     "body": ["import { Label } from \"@/components/ui/label\"", ""],
     "description": "https://ui.shadcn.com/docs/components"
   },
 
   "Menubar": {
-    "prefix": ["shadcn-menubar-import", "cni-menubar"],
+    "prefix": ["shadcn-i-menubar", "cni-menubar"],
     "body": [
       "import {",
       "  Menubar,",
@@ -216,7 +216,7 @@
   },
 
   "Navigation Menu": {
-    "prefix": ["shadcn-navigation-menu-import", "cni-navigation-menu"],
+    "prefix": ["shadcn-i-navigation-menu", "cni-navigation-menu"],
     "body": [
       "import {",
       "  NavigationMenu,",
@@ -234,7 +234,7 @@
   },
 
   "Popover": {
-    "prefix": ["shadcn-popover-import", "cni-popover"],
+    "prefix": ["shadcn-i-popover", "cni-popover"],
     "body": [
       "import {",
       "  Popover,",
@@ -247,13 +247,13 @@
   },
 
   "Progress": {
-    "prefix": ["shadcn-progress-import", "cni-progress"],
+    "prefix": ["shadcn-i-progress", "cni-progress"],
     "body": ["import { Progress } from \"@/components/ui/progress\"", ""],
     "description": "https://ui.shadcn.com/docs/components"
   },
 
   "Radio Group": {
-    "prefix": ["shadcn-radio-group-import", "cni-radio-group"],
+    "prefix": ["shadcn-i-radio-group", "cni-radio-group"],
     "body": [
       "import { Label } from \"@/components/ui/label\"",
       "import { RadioGroup, RadioGroupItem } from \"@/components/ui/radio-group\"",
@@ -263,7 +263,7 @@
   },
 
   "Scroll Area": {
-    "prefix": ["shadcn-scroll-area-import", "cni-scroll-area"],
+    "prefix": ["shadcn-i-scroll-area", "cni-scroll-area"],
     "body": ["import { ScrollArea } from \"@/components/ui/scroll-area\"", ""],
     "description": "https://ui.shadcn.com/docs/components"
   },
@@ -284,13 +284,13 @@
   },
 
   "Separator": {
-    "prefix": ["shadcn-separator-import", "cni-separator"],
+    "prefix": ["shadcn-i-separator", "cni-separator"],
     "body": ["import { Separator } from \"@/components/ui/separator\"", ""],
     "description": "https://ui.shadcn.com/docs/components"
   },
 
   "Sheet": {
-    "prefix": ["shadcn-sheet-import", "cni-sheet"],
+    "prefix": ["shadcn-i-sheet", "cni-sheet"],
     "body": [
       "import {",
       "  Sheet,",
@@ -306,25 +306,25 @@
   },
 
   "Skeleton": {
-    "prefix": ["shadcn-skeleton-import", "cni-skeleton"],
+    "prefix": ["shadcn-i-skeleton", "cni-skeleton"],
     "body": ["import { Skeleton } from \"@/components/ui/skeleton\"", ""],
     "description": "https://ui.shadcn.com/docs/components"
   },
 
   "Slider": {
-    "prefix": ["shadcn-slider-import", "cni-slider"],
+    "prefix": ["shadcn-i-slider", "cni-slider"],
     "body": ["import { Slider } from \"@/components/ui/slider\"", ""],
     "description": "https://ui.shadcn.com/docs/components"
   },
 
   "Switch": {
-    "prefix": ["shadcn-switch-import", "cni-switch"],
+    "prefix": ["shadcn-i-switch", "cni-switch"],
     "body": ["import { Switch } from \"@/components/ui/switch\"", ""],
     "description": "https://ui.shadcn.com/docs/components"
   },
 
   "Table": {
-    "prefix": ["shadcn-table-import", "cni-table"],
+    "prefix": ["shadcn-i-table", "cni-table"],
     "body": [
       "import {",
       "  Table,",
@@ -341,7 +341,7 @@
   },
 
   "Tabs": {
-    "prefix": ["shadcn-tabs-import", "cni-tabs"],
+    "prefix": ["shadcn-i-tabs", "cni-tabs"],
     "body": [
       "import { Tabs, TabsContent, TabsList, TabsTrigger } from \"@/components/ui/tabs\"",
       ""
@@ -350,19 +350,19 @@
   },
 
   "Textarea": {
-    "prefix": ["shadcn-textarea-import", "cni-textarea"],
+    "prefix": ["shadcn-i-textarea", "cni-textarea"],
     "body": ["import { Textarea } from \"@/components/ui/textarea\"", ""],
     "description": "https://ui.shadcn.com/docs/components"
   },
 
   "Toggle": {
-    "prefix": ["shadcn-toggle-import", "cni-toggle"],
+    "prefix": ["shadcn-i-toggle", "cni-toggle"],
     "body": ["import { Toggle } from \"@/components/ui/toggle\"", ""],
     "description": "https://ui.shadcn.com/docs/components"
   },
 
   "Tooltip": {
-    "prefix": ["shadcn-tooltip-import", "cni-tooltip"],
+    "prefix": ["shadcn-i-tooltip", "cni-tooltip"],
     "body": [
       "import {",
       "  Tooltip,",
