@@ -88,5 +88,379 @@
     "prefix": "shadcn-button",
     "body": ["<Button>Submit</Button>", ""],
     "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Card": {
+    "prefix": "shadcn-card",
+    "body": [
+      "<Card>",
+      "  <CardHeader>",
+      "    <CardTitle>Card Title</CardTitle>",
+      "    <CardDescription>Card Description</CardDescription>",
+      "  </CardHeader>",
+      "  <CardContent>",
+      "    <p>Card Content</p>",
+      "  </CardContent>",
+      "  <CardFooter>",
+      "    <p>Card Footer</p>",
+      "  </CardFooter>",
+      "</Card>",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Checkbox": {
+    "prefix": "shadcn-checkbox",
+    "body": ["<Checkbox />", ""],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Collapsible": {
+    "prefix": "shadcn-collapsible",
+    "body": [
+      "<Collapsible>",
+      "  <CollapsibleTrigger>Can I use this in my project?</CollapsibleTrigger>",
+      "  <CollapsibleContent>",
+      "    Yes. Free to use for personal and commercial projects. No attribution",
+      "    required.",
+      "  </CollapsibleContent>",
+      "</Collapsible>",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Command": {
+    "prefix": "shadcn-command",
+    "body": [
+      "<Command>",
+      "  <CommandInput placeholder=\"Type a command or search...\" />",
+      "  <CommandList>",
+      "    <CommandEmpty>No results found.</CommandEmpty>",
+      "    <CommandGroup heading=\"Suggestions\">",
+      "      <CommandItem>Calendar</CommandItem>",
+      "      <CommandItem>Search Emoji</CommandItem>",
+      "      <CommandItem>Calculator</CommandItem>",
+      "    </CommandGroup>",
+      "    <CommandSeparator />",
+      "    <CommandGroup heading=\"Settings\">",
+      "      <CommandItem>Profile</CommandItem>",
+      "      <CommandItem>Billing</CommandItem>",
+      "      <CommandItem>Settings</CommandItem>",
+      "    </CommandGroup>",
+      "  </CommandList>",
+      "</Command>",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Context Menu": {
+    "prefix": "shadcn-context-menu",
+    "body": [
+      "<ContextMenu>",
+      "  <ContextMenuTrigger>Right click</ContextMenuTrigger>",
+      "  <ContextMenuContent>",
+      "    <ContextMenuItem>Profile</ContextMenuItem>",
+      "    <ContextMenuItem>Billing</ContextMenuItem>",
+      "    <ContextMenuItem>Team</ContextMenuItem>",
+      "    <ContextMenuItem>Subscription</ContextMenuItem>",
+      "  </ContextMenuContent>",
+      "</ContextMenu>",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Dialog": {
+    "prefix": "shadcn-dialog",
+    "body": [
+      "<Dialog>",
+      "  <DialogTrigger>Open</DialogTrigger>",
+      "  <DialogContent>",
+      "    <DialogHeader>",
+      "      <DialogTitle>Are you sure absolutely sure?</DialogTitle>",
+      "      <DialogDescription>",
+      "        This action cannot be undone. This will permanently delete your account",
+      "        and remove your data from our servers.",
+      "      </DialogDescription>",
+      "    </DialogHeader>",
+      "  </DialogContent>",
+      "</Dialog>",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Dropdown Menu": {
+    "prefix": "shadcn-dropdown-menu",
+    "body": [
+      "<DropdownMenu>",
+      "  <DropdownMenuTrigger>Open</DropdownMenuTrigger>",
+      "  <DropdownMenuContent>",
+      "    <DropdownMenuLabel>My Account</DropdownMenuLabel>",
+      "    <DropdownMenuSeparator />",
+      "    <DropdownMenuItem>Profile</DropdownMenuItem>",
+      "    <DropdownMenuItem>Billing</DropdownMenuItem>",
+      "    <DropdownMenuItem>Team</DropdownMenuItem>",
+      "    <DropdownMenuItem>Subscription</DropdownMenuItem>",
+      "  </DropdownMenuContent>",
+      "</DropdownMenu>",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Hover Card": {
+    "prefix": "shadcn-hover-card",
+    "body": [
+      "<HoverCard>",
+      "  <HoverCardTrigger>Hover</HoverCardTrigger>",
+      "  <HoverCardContent>",
+      "    The React Framework – created and maintained by @vercel.",
+      "  </HoverCardContent>",
+      "</HoverCard>",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Input": {
+    "prefix": "shadcn-input",
+    "body": ["<Input />", ""],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Label": {
+    "prefix": "shadcn-label",
+    "body": ["<Label htmlFor=\"email\">Your email address</Label>", ""],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Menubar": {
+    "prefix": "shadcn-menubar",
+    "body": [
+      "<Menubar>",
+      "  <MenubarMenu>",
+      "    <MenubarTrigger>File</MenubarTrigger>",
+      "    <MenubarContent>",
+      "      <MenubarItem>",
+      "        New Tab <MenubarShortcut>⌘T</MenubarShortcut>",
+      "      </MenubarItem>",
+      "      <MenubarItem>New Window</MenubarItem>",
+      "      <MenubarSeparator />",
+      "      <MenubarItem>Share</MenubarItem>",
+      "      <MenubarSeparator />",
+      "      <MenubarItem>Print</MenubarItem>",
+      "    </MenubarContent>",
+      "  </MenubarMenu>",
+      "</Menubar>",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Navigation Menu": {
+    "prefix": "shadcn-navigation-menu",
+    "body": [
+      "<NavigationMenu>",
+      "  <NavigationMenuList>",
+      "    <NavigationMenuItem>",
+      "      <NavigationMenuTrigger>Item One</NavigationMenuTrigger>",
+      "      <NavigationMenuContent>",
+      "        <NavigationMenuLink>Link</NavigationMenuLink>",
+      "      </NavigationMenuContent>",
+      "    </NavigationMenuItem>",
+      "  </NavigationMenuList>",
+      "</NavigationMenu>",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Popover": {
+    "prefix": "shadcn-popover",
+    "body": [
+      "<Popover>",
+      "  <PopoverTrigger>Open</PopoverTrigger>",
+      "  <PopoverContent>Place content for the popover here.</PopoverContent>",
+      "</Popover>",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Progress": {
+    "prefix": "shadcn-progress",
+    "body": ["<Progress value={33} />", ""],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Radio Group": {
+    "prefix": "shadcn-radio-group",
+    "body": [
+      "<RadioGroup defaultValue=\"option-one\">",
+      "  <div className=\"flex items-center space-x-2\">",
+      "    <RadioGroupItem value=\"option-one\" id=\"option-one\" />",
+      "    <Label htmlFor=\"option-one\">Option One</Label>",
+      "  </div>",
+      "  <div className=\"flex items-center space-x-2\">",
+      "    <RadioGroupItem value=\"option-two\" id=\"option-two\" />",
+      "    <Label htmlFor=\"option-two\">Option Two</Label>",
+      "  </div>",
+      "</RadioGroup>",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Scroll Area": {
+    "prefix": "shadcn-scroll-area",
+    "body": [
+      "<ScrollArea className=\"h-[200px] w-[350px] rounded-md border p-4\">",
+      "  Jokester began sneaking into the castle in the middle of the night and leaving",
+      "  jokes all over the place: under the king's pillow, in his soup, even in the",
+      "  royal toilet. The king was furious, but he couldn't seem to stop Jokester. And",
+      "  then, one day, the people of the kingdom discovered that the jokes left by",
+      "  Jokester were so funny that they couldn't help but laugh. And once they",
+      "  started laughing, they couldn't stop.",
+      "</ScrollArea>",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Select": {
+    "prefix": "shadcn-select",
+    "body": [
+      "<Select>",
+      "  <SelectTrigger className=\"w-[180px]\">",
+      "    <SelectValue placeholder=\"Theme\" />",
+      "  </SelectTrigger>",
+      "  <SelectContent>",
+      "    <SelectItem value=\"light\">Light</SelectItem>",
+      "    <SelectItem value=\"dark\">Dark</SelectItem>",
+      "    <SelectItem value=\"system\">System</SelectItem>",
+      "  </SelectContent>",
+      "</Select>",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Separator": {
+    "prefix": "shadcn-separator",
+    "body": ["<Separator />", ""],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Sheet": {
+    "prefix": "shadcn-sheet",
+    "body": [
+      "<Sheet>",
+      "  <SheetTrigger>Open</SheetTrigger>",
+      "  <SheetContent>",
+      "    <SheetHeader>",
+      "      <SheetTitle>Are you sure absolutely sure?</SheetTitle>",
+      "      <SheetDescription>",
+      "        This action cannot be undone. This will permanently delete your account",
+      "        and remove your data from our servers.",
+      "      </SheetDescription>",
+      "    </SheetHeader>",
+      "  </SheetContent>",
+      "</Sheet>",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Skeleton": {
+    "prefix": "shadcn-skeleton",
+    "body": ["<Skeleton className=\"w-[100px] h-[20px] rounded-full\" />", ""],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Slider": {
+    "prefix": "shadcn-slider",
+    "body": ["<Slider defaultValue={[33]} max={100} step={1} />", ""],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Switch": {
+    "prefix": "shadcn-switch",
+    "body": ["<Switch />", ""],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Table": {
+    "prefix": "shadcn-table",
+    "body": [
+      "<Table>",
+      "  <TableCaption>A list of your recent invoices.</TableCaption>",
+      "  <TableHeader>",
+      "    <TableRow>",
+      "      <TableHead className=\"w-[100px]\">Invoice</TableHead>",
+      "      <TableHead>Status</TableHead>",
+      "      <TableHead>Method</TableHead>",
+      "      <TableHead className=\"text-right\">Amount</TableHead>",
+      "    </TableRow>",
+      "  </TableHeader>",
+      "  <TableBody>",
+      "    <TableRow>",
+      "      <TableCell className=\"font-medium\">INV001</TableCell>",
+      "      <TableCell>Paid</TableCell>",
+      "      <TableCell>Credit Card</TableCell>",
+      "      <TableCell className=\"text-right\">$250.00</TableCell>",
+      "    </TableRow>",
+      "  </TableBody>",
+      "</Table>",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Tabs": {
+    "prefix": "shadcn-tabs",
+    "body": [
+      "<Tabs defaultValue=\"account\" className=\"w-[400px]\">",
+      "  <TabsList>",
+      "    <TabsTrigger value=\"account\">Account</TabsTrigger>",
+      "    <TabsTrigger value=\"password\">Password</TabsTrigger>",
+      "  </TabsList>",
+      "  <TabsContent value=\"account\">Make changes to your account here.</TabsContent>",
+      "  <TabsContent value=\"password\">Change your password here.</TabsContent>",
+      "</Tabs>",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Textarea": {
+    "prefix": "shadcn-textarea",
+    "body": ["<Textarea />", ""],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Toggle": {
+    "prefix": "shadcn-toggle",
+    "body": ["<Toggle>Toggle</Toggle>", ""],
+    "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Tooltip": {
+    "prefix": "shadcn-tooltip",
+    "body": [
+      "<TooltipProvider>",
+      "  <Tooltip>",
+      "    <TooltipTrigger>Hover</TooltipTrigger>",
+      "    <TooltipContent>",
+      "      <p>Add to library</p>",
+      "    </TooltipContent>",
+      "  </Tooltip>",
+      "</TooltipProvider>",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components"
   }
 }
