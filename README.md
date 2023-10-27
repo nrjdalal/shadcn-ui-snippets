@@ -1,5 +1,13 @@
 # shadcn-ui-snippets
 
+### What is this?
+
+Now import and use shadcn-ui components with ease using snippets. Just type `shadcn` in you jsx/tsx file and you will get a list of all the components to choose from.
+
+### Extension URL
+
+https://marketplace.visualstudio.com/items?itemName=VeroXyle.shadcn-ui-snippets
+
 ### How to use?
 
 1. Components
