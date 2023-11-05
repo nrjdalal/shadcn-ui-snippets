@@ -40,7 +40,7 @@ import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 
 2. Page based components
 
-> Some compenents are page specific and can be imported using `cnp-[component]`, modular parts to be added later.
+> Some components are page specific and can be imported using `cnp-[component]`, modular parts to be added later.
 
 ```tsx
 // cnp-form
