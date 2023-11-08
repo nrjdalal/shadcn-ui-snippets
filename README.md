@@ -4,7 +4,7 @@
 
 Install the extension given below and easily import and use shadcn-ui components with ease using snippets within VSCode. Just type `cn` or `shadcn` in you jsx/tsx file and you will get a list of all the components to choose from.
 
-[https://marketplace.visualstudio.com/items?itemName=VeroXyle.shadcn-ui-snippets](https://rdt.li/9uFfMt)
+[https://marketplace.visualstudio.com/items?itemName=VeroXyle.shadcn-ui-snippets](https://rdt.li/shadcn-ui-snippets)
 
 ![shadcn-ui-snippets-example](https://raw.githubusercontent.com/nrjdalal/shadcn-ui-snippets/main/images/usage.jpg)
 
