@@ -98,7 +98,7 @@
       "  CarouselItem,",
       "  CarouselNext,",
       "  CarouselPrevious,",
-      "} from \"@/registry/new-york/ui/carousel\"",
+      "} from \"@/components/ui/carousel\"",
       ""
     ],
     "description": "https://ui.shadcn.com/docs/components/carousel"
