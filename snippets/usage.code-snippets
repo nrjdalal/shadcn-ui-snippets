@@ -141,6 +141,23 @@
     "description": "https://ui.shadcn.com/docs/components"
   },
 
+  "Carousel": {
+    "prefix": ["shadcn-x-carousel", "cnx-carousel"],
+    "body": [
+      "<Carousel>",
+      "  <CarouselContent>",
+      "    <CarouselItem>...</CarouselItem>",
+      "    <CarouselItem>...</CarouselItem>",
+      "    <CarouselItem>...</CarouselItem>",
+      "  </CarouselContent>",
+      "  <CarouselPrevious />",
+      "  <CarouselNext />",
+      "</Carousel>",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components/carousel"
+  }
+
   "Checkbox": {
     "prefix": ["shadcn-x-checkbox", "cnx-checkbox"],
     "body": ["<Checkbox />", ""],
@@ -222,6 +239,29 @@
       ""
     ],
     "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Drawer": {
+    "prefix": ["shadcn-x-drawer", "cnx-drawer"],
+    "body": [
+      "<Drawer>",
+      "  <DrawerTrigger>Open</DrawerTrigger>",
+      "  <DrawerContent>",
+      "    <DrawerHeader>",
+      "      <DrawerTitle>Are you sure absolutely sure?</DrawerTitle>",
+      "      <DrawerDescription>This action cannot be undone.</DrawerDescription>",
+      "    </DrawerHeader>",
+      "    <DrawerFooter>",
+      "      <Button>Submit</Button>",
+      "      <DrawerClose>",
+      "        <Button variant=\"outline\">Cancel</Button>",
+      "      </DrawerClose>",
+      "    </DrawerFooter>",
+      "  </DrawerContent>",
+      "</Drawer>",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components/drawer"
   },
 
   "Dropdown Menu": {
@@ -310,6 +350,30 @@
     "description": "https://ui.shadcn.com/docs/components"
   },
 
+  "Pagination": {
+    "prefix": ["shadcn-x-pagination", "cnx-pagination"],
+    "body": [
+      "<Pagination>",
+      "  <PaginationContent>",
+      "    <PaginationItem>",
+      "      <PaginationPrevious href=\"#\" />",
+      "    </PaginationItem>",
+      "    <PaginationItem>",
+      "      <PaginationLink href=\"#\">1</PaginationLink>",
+      "    </PaginationItem>",
+      "    <PaginationItem>",
+      "      <PaginationEllipsis />",
+      "    </PaginationItem>",
+      "    <PaginationItem>",
+      "      <PaginationNext href=\"#\" />",
+      "    </PaginationItem>",
+      "  </PaginationContent>",
+      "</Pagination>",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components/pagination"
+  },
+
   "Popover": {
     "prefix": ["shadcn-x-popover", "cnx-popover"],
     "body": [
@@ -344,6 +408,18 @@
       ""
     ],
     "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Resizable": {
+    "prefix": ["shadcn-x-resizable", "cnx-resizable"],
+    "body": [
+      "<ResizableGroup direction=\"vertical\">",
+      "  <ResizablePanel>One</ResizablePanel>",
+      "  <ResizableHandle withHandle />",
+      "  <ResizablePanel>Two</ResizablePanel>",
+      "</ResizableGroup>"
+    ],
+    "description": "https://ui.shadcn.com/docs/components/resizable"
   },
 
   "Scroll Area": {
@@ -416,6 +492,14 @@
     "prefix": ["shadcn-x-slider", "cnx-slider"],
     "body": ["<Slider defaultValue={[33]} max={100} step={1} />", ""],
     "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Sonner": {
+    "prefix": ["shadcn-x-sonner", "cnx-sonner"],
+    "body": [
+      "<Toaster />"
+    ],
+    "description": "https://ui.shadcn.com/docs/components/sonner"
   },
 
   "Switch": {

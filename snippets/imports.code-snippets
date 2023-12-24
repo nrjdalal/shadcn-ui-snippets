@@ -89,6 +89,21 @@
     "description": "https://ui.shadcn.com/docs/components"
   },
 
+  "Carousel": {
+    "prefix": ["shadcn-i-carousel", "cni-carousel"],
+    "body": [
+      "import {",
+      "  Carousel,",
+      "  CarouselContent,",
+      "  CarouselItem,",
+      "  CarouselNext,",
+      "  CarouselPrevious,",
+      "} from \"@/components/ui/carousel\"",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components/carousel"
+  },
+
   "Checkbox": {
     "prefix": ["shadcn-i-checkbox", "cni-checkbox"],
     "body": ["import { Checkbox } from \"@/components/ui/checkbox\"", ""],
@@ -155,6 +170,23 @@
       ""
     ],
     "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Drawer": {
+    "prefix": ["shadcn-i-drawer", "cni-drawer"],
+    "body": [
+      "import {",
+      "  Drawer,",
+      "  DrawerClose,",
+      "  DrawerContent,",
+      "  DrawerDescription,",
+      "  DrawerHeader,",
+      "  DrawerTitle,",
+      "  DrawerTrigger,",
+      "} from \"@/components/ui/drawer\"",
+      ""
+    ],
+    "description": "https://ui.shadcn.com/docs/components/drawer"
   },
 
   "Dropdown Menu": {
@@ -233,6 +265,22 @@
     "description": "https://ui.shadcn.com/docs/components"
   },
 
+  "Pagination": {
+    "prefix": ["shadcn-i-pagination", "cni-pagination"],
+    "body": [
+      "import {",
+      "  Pagination,",
+      "  PaginationContent,",
+      "  PaginationEllipsis,",
+      "  PaginationItem,",
+      "  PaginationLink,",
+      "  PaginationNext,",
+      "  PaginationPrevious,",
+      "} from \"@/components/ui/pagination\""
+    ],
+    "description": "https://ui.shadcn.com/docs/components/pagination"
+  },
+
   "Popover": {
     "prefix": ["shadcn-i-popover", "cni-popover"],
     "body": [
@@ -260,6 +308,18 @@
       ""
     ],
     "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Resizable": {
+    "prefix": ["shadcn-i-resizable", "cni-resizable"],
+    "body": [
+      "import {",
+      "  ResizableHandle,",
+      "  ResizablePanel,",
+      "  ResizablePanelGroup,",
+      "} from \"@/components/ui/resizable\""
+    ],
+    "description": "https://ui.shadcn.com/docs/components/resizable"
   },
 
   "Scroll Area": {
@@ -315,6 +375,12 @@
     "prefix": ["shadcn-i-slider", "cni-slider"],
     "body": ["import { Slider } from \"@/components/ui/slider\"", ""],
     "description": "https://ui.shadcn.com/docs/components"
+  },
+
+  "Sonner": {
+    "prefix": ["shadcn-i-sonner", "cni-sonner"],
+    "body": ["import { Toaster } from \"@/components/ui/sonner\"", ""],
+    "description": "https://ui.shadcn.com/docs/components/sonner"
   },
 
   "Switch": {
