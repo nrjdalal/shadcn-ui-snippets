@@ -418,7 +418,8 @@
       "  <ResizablePanel>One</ResizablePanel>",
       "  <ResizableHandle withHandle />",
       "  <ResizablePanel>Two</ResizablePanel>",
-      "</ResizablePanelGroup>"
+      "</ResizablePanelGroup>",
+      ""
     ],
     "description": "https://ui.shadcn.com/docs/components/resizable"
   },
