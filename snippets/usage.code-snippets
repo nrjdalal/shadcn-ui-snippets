@@ -496,7 +496,7 @@
 
   "Sonner": {
     "prefix": ["shadcn-x-sonner", "cnx-sonner"],
-    "body": ["<Toaster />"],
+    "body": ["<Toaster />", ""],
     "description": "https://ui.shadcn.com/docs/components/sonner"
   },
 
