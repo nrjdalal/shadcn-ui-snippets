@@ -156,7 +156,7 @@
       ""
     ],
     "description": "https://ui.shadcn.com/docs/components/carousel"
-  }
+  },
 
   "Checkbox": {
     "prefix": ["shadcn-x-checkbox", "cnx-checkbox"],
@@ -413,11 +413,11 @@
   "Resizable": {
     "prefix": ["shadcn-x-resizable", "cnx-resizable"],
     "body": [
-      "<ResizableGroup direction=\"vertical\">",
+      "<ResizablePanelGroup direction=\"vertical\">",
       "  <ResizablePanel>One</ResizablePanel>",
       "  <ResizableHandle withHandle />",
       "  <ResizablePanel>Two</ResizablePanel>",
-      "</ResizableGroup>"
+      "</ResizablePanelGroup>"
     ],
     "description": "https://ui.shadcn.com/docs/components/resizable"
   },
@@ -496,9 +496,7 @@
 
   "Sonner": {
     "prefix": ["shadcn-x-sonner", "cnx-sonner"],
-    "body": [
-      "<Toaster />"
-    ],
+    "body": ["<Toaster />"],
     "description": "https://ui.shadcn.com/docs/components/sonner"
   },
 
