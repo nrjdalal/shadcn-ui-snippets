@@ -33,7 +33,10 @@ for (const file of files) {
         ? [`shadcn-i-${name}`, `cni-${name}`]
         : type === "default"
         ? [`shadcn-x-${name}`, `cnx-${name}`]
-        : [`shadcn-x-${name}-${type}`, `cnx-${name}-${type}`]
+        : [
+            `shadcn-x-${name}-${type.replace(/ /g, "-")}`,
+            `cnx-${name}-${type.replace(/ /g, "-")}`
+          ]
     ].flat()
 
     if (type === "import") {
