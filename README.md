@@ -122,4 +122,4 @@ export default function Page() {
 
 ~~Use this link - [Snippet Generation](https://snippet-generator.app/?description=https%3A%2F%2Fui.shadcn.com%2Fdocs%2Fcomponents&tabtrigger=shadcn-&snippet=&mode=vscode) to generate snippets and add/update them to the `snippets` folder accordingly.~~
 
-Simply add new snippets in snippets folder and run `bun run generate` to generate the snippets to the dist folder.
+Simply add new components to src/components folder and run `bun run generate` to generate the snippets to the dist folder.
