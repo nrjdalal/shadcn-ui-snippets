@@ -188,7 +188,7 @@ import -
 default -
 
 ```jsx
-// paste the default code here
+// paste the default usage code here
 ```
 
 ---
@@ -196,6 +196,6 @@ default -
 variant -
 
 ```jsx
-// paste the variant code here
+// paste the variant usage code here
 ```
 ````
