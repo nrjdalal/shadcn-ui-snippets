@@ -9,7 +9,7 @@
     "vscode": "^1.83.0"
   },
   "scripts": {
-    "generate": "bun ./src/generate.js && bunx prettier --write ./dist/*.code-snippets",
+    "generate": "bun ./bin/generate.js && bunx prettier --write ./dist/*.code-snippets",
     "publish": "bun run generate && vsce publish minor"
   },
   "categories": [
@@ -46,35 +46,35 @@
       },
       {
         "language": "javascriptreact",
-        "path": "./snippets/help.code-snippets"
+        "path": "./extras/help.code-snippets"
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/help.code-snippets"
+        "path": "./extras/help.code-snippets"
       },
       {
         "language": "javascriptreact",
-        "path": "./snippets/imports.code-snippets"
+        "path": "./extras/pages.code-snippets"
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/imports.code-snippets"
+        "path": "./extras/pages.code-snippets"
       },
       {
         "language": "javascriptreact",
-        "path": "./snippets/usage.code-snippets"
+        "path": "./snippets-deprecated-way/imports.code-snippets"
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/usage.code-snippets"
+        "path": "./snippets-deprecated-way/imports.code-snippets"
       },
       {
         "language": "javascriptreact",
-        "path": "./snippets/pages.code-snippets"
+        "path": "./snippets-deprecated-way/usage.code-snippets"
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/pages.code-snippets"
+        "path": "./snippets-deprecated-way/usage.code-snippets"
       }
     ]
   },

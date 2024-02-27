@@ -2,14 +2,14 @@
 
 import fs from "fs"
 
-const files = fs.readdirSync("src/snippets")
+const files = fs.readdirSync("src/components")
 
 const importJson = {}
 const usageJson = {}
 
 for (const file of files) {
   const name = file.split(".")[0]
-  const fileContent = fs.readFileSync(`src/snippets/${file}`, "utf8")
+  const fileContent = fs.readFileSync(`src/components/${file}`, "utf8")
 
   let modifyContent = fileContent.split("---").map((s) =>
     s
