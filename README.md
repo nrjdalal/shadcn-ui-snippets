@@ -123,7 +123,7 @@ export default function Page() {
 
 ~~Use this link - [Snippet Generation](https://snippet-generator.app/?description=https%3A%2F%2Fui.shadcn.com%2Fdocs%2Fcomponents&tabtrigger=shadcn-&snippet=&mode=vscode) to generate snippets and add/update them to the `snippets` folder accordingly.~~
 
-e.g. for `Alert` component
+#### e.g. for `Alert` component
 
 1. add `alert.md` file in `src/components` folder
 2. add imports, default and variants (e.g. destructive) as shown below
