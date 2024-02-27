@@ -30,12 +30,12 @@ for (const file of files) {
       .trim()
     const prefix = [
       type === "import"
-        ? [`shadcn-i-${name}`, `cni-${name}`]
+        ? [`cni-${name}`, `shadcn-i-${name}`]
         : type === "default"
-        ? [`shadcn-x-${name}`, `cnx-${name}`]
+        ? [`cnx-${name}`, `shadcn-x-${name}`]
         : [
-            `shadcn-x-${name}-${type.replace(/ /g, "-")}`,
             `cnx-${name}-${type.replace(/ /g, "-")}`,
+            `shadcn-x-${name}-${type.replace(/ /g, "-")}`,
           ],
     ].flat()
 
