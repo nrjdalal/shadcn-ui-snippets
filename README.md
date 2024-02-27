@@ -168,7 +168,11 @@ destructive -
 ```
 ````
 
-Template for `component.md` file:
+<br>
+
+Template for new components - `src/components/component-name.md`
+
+<br>
 
 ````md
 import -
