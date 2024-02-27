@@ -60,22 +60,22 @@ import {
   FormField,
   FormItem,
   FormLabel,
-  FormMessage
+  FormMessage,
 } from "@/components/ui/form"
 import { Input } from "@/components/ui/input"
 
 const formSchema = z.object({
   username: z.string().min(2, {
-    message: "Username must be at least 2 characters."
-  })
+    message: "Username must be at least 2 characters.",
+  }),
 })
 
 export default function Page() {
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
-      username: ""
-    }
+      username: "",
+    },
   })
 
   const onSubmit = (values: z.infer<typeof formSchema>) => {
@@ -122,4 +122,47 @@ export default function Page() {
 
 ~~Use this link - [Snippet Generation](https://snippet-generator.app/?description=https%3A%2F%2Fui.shadcn.com%2Fdocs%2Fcomponents&tabtrigger=shadcn-&snippet=&mode=vscode) to generate snippets and add/update them to the `snippets` folder accordingly.~~
 
-Simply add new components to src/components folder and run `bun run generate` to generate the snippets to the dist folder.
+e.g. for `Alert` component
+
+1. add `alert.md` file in `src/components` folder
+2. add imports, default and variant as shown below
+3. do not forget to seperate each snippet with `---`
+4. run `bun run generate` to generate the snippets
+
+- for multiword components like Hover Card, use `hover-card.md` as the file name
+
+<br>
+
+````md
+import -
+
+```jsx
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
+```
+
+---
+
+default -
+
+```jsx
+<Alert>
+  <AlertTitle>Heads up!</AlertTitle>
+  <AlertDescription>
+    You can add components to your app using the cli.
+  </AlertDescription>
+</Alert>
+```
+
+---
+
+destructive -
+
+```jsx
+<Alert variant="destructive">
+  <AlertTitle>Error</AlertTitle>
+  <AlertDescription>
+    Your session has expired. Please log in again.
+  </AlertDescription>
+</Alert>
+```
+````
