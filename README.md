@@ -167,3 +167,29 @@ destructive -
 </Alert>
 ```
 ````
+
+Template for `component.md` file:
+
+````md
+import -
+
+```jsx
+
+```
+
+---
+
+default -
+
+```jsx
+
+```
+
+---
+
+variant-if-any -
+
+```jsx
+
+```
+````
