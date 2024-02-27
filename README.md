@@ -29,15 +29,15 @@ For `Alert` component, type `cni-alert` to add imports in your jsx/tsx file, and
 
 ```tsx
 // cni-alert
-import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 
 // cnx-alert
-<Alert>
+;<Alert>
   <AlertTitle>Heads up!</AlertTitle>
   <AlertDescription>
     You can add components and dependencies to your app using the cli.
   </AlertDescription>
-</Alert>;
+</Alert>
 ```
 
 2. Page based components
@@ -46,13 +46,13 @@ import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 
 ```tsx
 // cnp-form
-"use client";
+"use client"
 
-import { zodResolver } from "@hookform/resolvers/zod";
-import { useForm } from "react-hook-form";
-import * as z from "zod";
+import { zodResolver } from "@hookform/resolvers/zod"
+import { useForm } from "react-hook-form"
+import * as z from "zod"
 
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/ui/button"
 import {
   Form,
   FormControl,
@@ -60,27 +60,27 @@ import {
   FormField,
   FormItem,
   FormLabel,
-  FormMessage,
-} from "@/components/ui/form";
-import { Input } from "@/components/ui/input";
+  FormMessage
+} from "@/components/ui/form"
+import { Input } from "@/components/ui/input"
 
 const formSchema = z.object({
   username: z.string().min(2, {
-    message: "Username must be at least 2 characters.",
-  }),
-});
+    message: "Username must be at least 2 characters."
+  })
+})
 
 export default function Page() {
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
-      username: "",
-    },
-  });
+      username: ""
+    }
+  })
 
   const onSubmit = (values: z.infer<typeof formSchema>) => {
-    console.log(values);
-  };
+    console.log(values)
+  }
 
   return (
     <Form {...form}>
@@ -104,7 +104,7 @@ export default function Page() {
         <Button type="submit">Submit</Button>
       </form>
     </Form>
-  );
+  )
 }
 ```
 
@@ -120,4 +120,6 @@ export default function Page() {
 
 ### How to contribute?
 
-Use this link - [Snippet Generation](https://snippet-generator.app/?description=https%3A%2F%2Fui.shadcn.com%2Fdocs%2Fcomponents&tabtrigger=shadcn-&snippet=&mode=vscode) to generate snippets and add/update them to the `snippets` folder accordingly.
+~~Use this link - [Snippet Generation](https://snippet-generator.app/?description=https%3A%2F%2Fui.shadcn.com%2Fdocs%2Fcomponents&tabtrigger=shadcn-&snippet=&mode=vscode) to generate snippets and add/update them to the `snippets` folder accordingly.~~
+
+Simply add new snippets in src/snippets folder and run `bun run generate` to generate the snippets to the dist folder.

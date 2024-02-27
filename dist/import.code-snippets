@@ -1,0 +1,9 @@
+{
+  "Alert": {
+    "prefix": ["shadcn-i-alert", "cni-alert"],
+    "body": [
+      "import { Alert, AlertDescription, AlertTitle } from \"@/components/ui/alert\""
+    ],
+    "description": "https://ui.shadcn.com/docs/components/alert"
+  }
+}

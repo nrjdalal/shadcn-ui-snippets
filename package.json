@@ -8,6 +8,9 @@
   "engines": {
     "vscode": "^1.83.0"
   },
+  "scripts": {
+    "generate": "bun ./src/generate.js && bunx prettier --write ./dist/*.code-snippets"
+  },
   "categories": [
     "Snippets"
   ],
@@ -24,6 +27,22 @@
   ],
   "contributes": {
     "snippets": [
+      {
+        "language": "javascriptreact",
+        "path": "./dist/import.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./dist/import.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./dist/usage.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./dist/usage.code-snippets"
+      },
       {
         "language": "javascriptreact",
         "path": "./snippets/help.code-snippets"
