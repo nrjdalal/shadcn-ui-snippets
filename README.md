@@ -172,13 +172,15 @@ destructive -
 
 Template for new components - `src/components/component-name.md`
 
+- remove variant and preceding '---' if no variant is available
+
 <br>
 
 ````md
 import -
 
 ```jsx
-
+// paste the import statement here
 ```
 
 ---
@@ -186,14 +188,14 @@ import -
 default -
 
 ```jsx
-
+// paste the default code here
 ```
 
 ---
 
-variant-if-any -
+variant -
 
 ```jsx
-
+// paste the variant code here
 ```
 ````
