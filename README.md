@@ -125,11 +125,13 @@ export default function Page() {
 e.g. for `Alert` component
 
 1. add `alert.md` file in `src/components` folder
-2. add imports, default and variant as shown below
+2. add imports, default and variants (e.g. destructive) as shown below
 3. do not forget to seperate each snippet with `---`
+   - remove the snippets instances from `snippets-deprecated-way` folder
 4. run `bun run generate` to generate the snippets
 
 - for multiword components like Hover Card, use `hover-card.md` as the file name
+- for edits, find the component file and make changes accordingly
 
 <br>
 
