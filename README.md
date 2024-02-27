@@ -1,6 +1,7 @@
 # shadcn-ui-snippets
 
-Checkout more amazing projects at [@nrjdalal](https://rdt.li/gh-follow).
+- Raise your karma, even beginners - [How to contribute?](#how-to-contribute)
+- Checkout more amazing projects at [nrjdalal](https://rdt.li/gh-follow) / [nrjdalal.com](https://nrjdalal.com)
 
 ### What is this?
 
