@@ -55,20 +55,19 @@ for (const file of files) {
   })
 }
 
-// arrange importJson and usageJson by key
+// sort importJson and usageJson by key and remove keys where body is [""]
 
-const importJsonSorted = Object.keys(importJson)
-  .sort()
-  .reduce((obj, key) => {
-    obj[key] = importJson[key]
-    return obj
-  }, {})
-const usageJsonSorted = Object.keys(usageJson)
-  .sort()
-  .reduce((obj, key) => {
-    obj[key] = usageJson[key]
-    return obj
-  }, {})
+const importJsonSorted = Object.fromEntries(
+  Object.entries(importJson)
+    .sort()
+    .filter(([key, value]) => value.body[0] !== "")
+)
+
+const usageJsonSorted = Object.fromEntries(
+  Object.entries(usageJson)
+    .sort()
+    .filter(([key, value]) => value.body[0] !== "")
+)
 
 fs.mkdirSync("dist", { recursive: true })
 fs.writeFileSync(
