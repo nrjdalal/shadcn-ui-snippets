@@ -10,7 +10,7 @@
   },
   "scripts": {
     "generate": "rm -rf ./dist/ && bun src/scripts/generate.js && cp ./src/extras/* ./dist/ && cp ./src/images/* ./dist/ && bunx prettier --write ./dist/*.code-snippets",
-    "publish": "bun run generate && vsce publish minor"
+    "publish": "bun run generate && vsce publish"
   },
   "categories": [
     "Snippets"
