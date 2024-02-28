@@ -1,7 +1,7 @@
 import -
 
 ```jsx
-
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 ```
 
 ---
@@ -9,13 +9,8 @@ import -
 default -
 
 ```jsx
-
-```
-
----
-
-variant -
-
-```jsx
-
+<Avatar>
+  <AvatarImage src="https://github.com/shadcn.png" />
+  <AvatarFallback>CN</AvatarFallback>
+</Avatar>
 ```

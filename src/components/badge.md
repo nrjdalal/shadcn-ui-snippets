@@ -1,7 +1,7 @@
 import -
 
 ```jsx
-
+import { Badge } from "@/components/ui/badge"
 ```
 
 ---
@@ -9,13 +9,29 @@ import -
 default -
 
 ```jsx
-
+<Badge>Badge</Badge>
 ```
 
 ---
 
-variant -
+secondary -
 
 ```jsx
+<Badge variant="secondary">Secondary</Badge>
+```
 
+---
+
+outline -
+
+```jsx
+<Badge variant="outline">Outline</Badge>
+```
+
+---
+
+destructive -
+
+```jsx
+<Badge variant="destructive">Destructive</Badge>
 ```

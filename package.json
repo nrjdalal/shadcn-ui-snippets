@@ -9,7 +9,7 @@
     "vscode": "^1.83.0"
   },
   "scripts": {
-    "generate": "bun ./src/scripts/generate.js && bunx prettier --write ./dist/*.code-snippets",
+    "generate": "bun src/scripts/generate.js && bunx prettier --write ./dist/*.code-snippets",
     "publish": "bun run generate && vsce publish minor"
   },
   "categories": [
