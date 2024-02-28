@@ -1,7 +1,7 @@
 import -
 
 ```jsx
-
+import { Textarea } from "@/components/ui/textarea"
 ```
 
 ---
@@ -9,13 +9,13 @@ import -
 default -
 
 ```jsx
-
+<Textarea />
 ```
 
 ---
 
-variant -
+disabled -
 
 ```jsx
-
+<Textarea disabled />
 ```

@@ -1,7 +1,7 @@
 import -
 
 ```jsx
-
+import { Progress } from "@/components/ui/progress"
 ```
 
 ---
@@ -9,13 +9,5 @@ import -
 default -
 
 ```jsx
-
-```
-
----
-
-variant -
-
-```jsx
-
+<Progress value={33} />
 ```

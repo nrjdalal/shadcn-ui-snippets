@@ -1,7 +1,11 @@
 import -
 
 ```jsx
-
+import {
+  HoverCard,
+  HoverCardContent,
+  HoverCardTrigger,
+} from "@/components/ui/hover-card"
 ```
 
 ---
@@ -9,13 +13,10 @@ import -
 default -
 
 ```jsx
-
-```
-
----
-
-variant -
-
-```jsx
-
+<HoverCard>
+  <HoverCardTrigger>Hover</HoverCardTrigger>
+  <HoverCardContent>
+    The React Framework – created and maintained by @vercel.
+  </HoverCardContent>
+</HoverCard>
 ```

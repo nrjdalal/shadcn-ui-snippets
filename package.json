@@ -59,22 +59,6 @@
       {
         "language": "typescriptreact",
         "path": "./src/extras/pages.code-snippets"
-      },
-      {
-        "language": "javascriptreact",
-        "path": "./src/extras/snippets-deprecated-way/imports.code-snippets"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./src/extras/snippets-deprecated-way/imports.code-snippets"
-      },
-      {
-        "language": "javascriptreact",
-        "path": "./src/extras/snippets-deprecated-way/usage.code-snippets"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./src/extras/snippets-deprecated-way/usage.code-snippets"
       }
     ]
   },

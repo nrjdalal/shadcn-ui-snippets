@@ -1,7 +1,7 @@
 import -
 
 ```jsx
-
+import { toast } from "sonner"
 ```
 
 ---
@@ -9,13 +9,5 @@ import -
 default -
 
 ```jsx
-
-```
-
----
-
-variant -
-
-```jsx
-
+toast("Event has been created.")
 ```

@@ -1,7 +1,7 @@
 import -
 
 ```jsx
-
+import { Separator } from "@/components/ui/separator"
 ```
 
 ---
@@ -9,13 +9,5 @@ import -
 default -
 
 ```jsx
-
-```
-
----
-
-variant -
-
-```jsx
-
+<Separator />
 ```

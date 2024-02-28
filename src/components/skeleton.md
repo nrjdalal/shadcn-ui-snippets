@@ -1,7 +1,7 @@
 import -
 
 ```jsx
-
+import { Skeleton } from "@/components/ui/skeleton"
 ```
 
 ---
@@ -9,13 +9,5 @@ import -
 default -
 
 ```jsx
-
-```
-
----
-
-variant -
-
-```jsx
-
+<Skeleton className="w-[100px] h-[20px] rounded-full" />
 ```

@@ -1,7 +1,7 @@
 import -
 
 ```jsx
-
+import { Switch } from "@/components/ui/switch"
 ```
 
 ---
@@ -9,13 +9,5 @@ import -
 default -
 
 ```jsx
-
-```
-
----
-
-variant -
-
-```jsx
-
+<Switch />
 ```

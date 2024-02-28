@@ -1,7 +1,7 @@
 import -
 
 ```jsx
-
+import { Label } from "@/components/ui/label"
 ```
 
 ---
@@ -9,13 +9,5 @@ import -
 default -
 
 ```jsx
-
-```
-
----
-
-variant -
-
-```jsx
-
+<Label htmlFor="email">Your email address</Label>
 ```

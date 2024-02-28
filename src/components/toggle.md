@@ -1,7 +1,7 @@
 import -
 
 ```jsx
-
+import { Toggle } from "@/components/ui/toggle"
 ```
 
 ---
@@ -9,13 +9,21 @@ import -
 default -
 
 ```jsx
-
+<Toggle>Toggle</Toggle>
 ```
 
 ---
 
-variant -
+outline -
 
 ```jsx
+<Toggle variant="outline">Toggle</Toggle>
+```
 
+---
+
+disabled -
+
+```jsx
+<Toggle disabled>Toggle</Toggle>
 ```

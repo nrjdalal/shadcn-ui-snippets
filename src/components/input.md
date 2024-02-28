@@ -1,7 +1,7 @@
 import -
 
 ```jsx
-
+import { Input } from "@/components/ui/input"
 ```
 
 ---
@@ -9,13 +9,21 @@ import -
 default -
 
 ```jsx
-
+<Input />
 ```
 
 ---
 
-variant -
+file -
 
 ```jsx
+<Input type="file" />
+```
 
+---
+
+disabled -
+
+```jsx
+<Input disabled />
 ```
