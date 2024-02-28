@@ -1,7 +1,7 @@
 import -
 
 ```jsx
-
+import { Checkbox } from "@/components/ui/checkbox"
 ```
 
 ---
@@ -9,13 +9,13 @@ import -
 default -
 
 ```jsx
-
+<Checkbox />
 ```
 
 ---
 
-variant -
+disabled -
 
 ```jsx
-
+<Checkbox disabled />
 ```

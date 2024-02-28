@@ -1,7 +1,13 @@
 import -
 
 ```jsx
-
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel"
 ```
 
 ---
@@ -9,13 +15,29 @@ import -
 default -
 
 ```jsx
-
+<Carousel>
+  <CarouselContent>
+    <CarouselItem>...</CarouselItem>
+    <CarouselItem>...</CarouselItem>
+    <CarouselItem>...</CarouselItem>
+  </CarouselContent>
+  <CarouselPrevious />
+  <CarouselNext />
+</Carousel>
 ```
 
 ---
 
-variant -
+vertical -
 
 ```jsx
-
+<Carousel orientation="vertical">
+  <CarouselContent>
+    <CarouselItem>...</CarouselItem>
+    <CarouselItem>...</CarouselItem>
+    <CarouselItem>...</CarouselItem>
+  </CarouselContent>
+  <CarouselPrevious />
+  <CarouselNext />
+</Carousel>
 ```
