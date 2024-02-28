@@ -11,7 +11,7 @@ import {
 
 ---
 
-default
+default -
 
 ```jsx
 <Accordion type="single" collapsible>
