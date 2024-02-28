@@ -26,7 +26,18 @@
     "javascript snippets",
     "typescript snippets"
   ],
+  "main": "./bin/extension.js",
   "contributes": {
+    "commands": [
+      {
+        "command": "shadcn.ls",
+        "title": "Show directory listing"
+      },
+      {
+        "command": "shadcn.pwd",
+        "title": "Show current directory"
+      }
+    ],
     "snippets": [
       {
         "language": "javascriptreact",
