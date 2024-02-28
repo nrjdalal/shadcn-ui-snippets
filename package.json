@@ -3,13 +3,13 @@
   "displayName": "shadcn/ui snippets",
   "publisher": "VeroXyle",
   "description": "Simply import and use shadcn-ui components in your project",
-  "icon": "src/images/icon.png",
+  "icon": "dist/icon.png",
   "version": "6.7.0",
   "engines": {
     "vscode": "^1.83.0"
   },
   "scripts": {
-    "generate": "bun src/scripts/generate.js && bunx prettier --write ./dist/*.code-snippets",
+    "generate": "rm -rf ./dist/ && bun src/scripts/generate.js && cp ./src/extras/* ./dist/ && cp ./src/images/* ./dist/ && bunx prettier --write ./dist/*.code-snippets",
     "publish": "bun run generate && vsce publish minor"
   },
   "categories": [
@@ -46,19 +46,19 @@
       },
       {
         "language": "javascriptreact",
-        "path": "./src/extras/help.code-snippets"
+        "path": "./dist/help.code-snippets"
       },
       {
         "language": "typescriptreact",
-        "path": "./src/extras/help.code-snippets"
+        "path": "./dist/help.code-snippets"
       },
       {
         "language": "javascriptreact",
-        "path": "./src/extras/pages.code-snippets"
+        "path": "./dist/pages.code-snippets"
       },
       {
         "language": "typescriptreact",
-        "path": "./src/extras/pages.code-snippets"
+        "path": "./dist/pages.code-snippets"
       }
     ]
   },
