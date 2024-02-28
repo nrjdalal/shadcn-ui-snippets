@@ -62,19 +62,19 @@
       },
       {
         "language": "javascriptreact",
-        "path": "./snippets-deprecated-way/imports.code-snippets"
+        "path": "./src/extras/snippets-deprecated-way/imports.code-snippets"
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets-deprecated-way/imports.code-snippets"
+        "path": "./src/extras/snippets-deprecated-way/imports.code-snippets"
       },
       {
         "language": "javascriptreact",
-        "path": "./snippets-deprecated-way/usage.code-snippets"
+        "path": "./src/extras/snippets-deprecated-way/usage.code-snippets"
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets-deprecated-way/usage.code-snippets"
+        "path": "./src/extras/snippets-deprecated-way/usage.code-snippets"
       }
     ]
   },
