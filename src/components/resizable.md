@@ -49,7 +49,7 @@ handle -
 vertical handle -
 
 ```jsx
-<ResizablePanelGroup direction="horizontal">
+<ResizablePanelGroup direction="vertical">
   <ResizablePanel>One</ResizablePanel>
   <ResizableHandle withHandle />
   <ResizablePanel>Two</ResizablePanel>

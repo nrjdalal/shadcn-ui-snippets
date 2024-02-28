@@ -34,11 +34,3 @@ default -
   </DrawerContent>
 </Drawer>
 ```
-
----
-
-variant -
-
-```jsx
-
-```

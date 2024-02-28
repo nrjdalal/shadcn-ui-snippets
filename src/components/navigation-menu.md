@@ -29,11 +29,3 @@ default -
   </NavigationMenuList>
 </NavigationMenu>
 ```
-
----
-
-variant -
-
-```jsx
-
-```
