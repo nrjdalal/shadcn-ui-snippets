@@ -55,9 +55,27 @@ for (const file of files) {
   })
 }
 
+// arrange importJson and usageJson by key
+
+const importJsonSorted = Object.keys(importJson)
+  .sort()
+  .reduce((obj, key) => {
+    obj[key] = importJson[key]
+    return obj
+  }, {})
+const usageJsonSorted = Object.keys(usageJson)
+  .sort()
+  .reduce((obj, key) => {
+    obj[key] = usageJson[key]
+    return obj
+  }, {})
+
 fs.mkdirSync("dist", { recursive: true })
 fs.writeFileSync(
   "dist/import.code-snippets",
-  JSON.stringify(importJson, null, 2)
+  JSON.stringify(importJsonSorted, null, 2)
 )
-fs.writeFileSync("dist/usage.code-snippets", JSON.stringify(usageJson, null, 2))
+fs.writeFileSync(
+  "dist/usage.code-snippets",
+  JSON.stringify(usageJsonSorted, null, 2)
+)
