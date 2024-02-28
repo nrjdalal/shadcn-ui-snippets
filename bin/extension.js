@@ -4,7 +4,6 @@ function activate(context) {
   let disposable = [
     vscode.commands.registerCommand("shadcn.ls", () => {
       // run ls command
-
       const terminal = vscode.window.createTerminal("shadcn")
       terminal.show()
       terminal.sendText("ls")
