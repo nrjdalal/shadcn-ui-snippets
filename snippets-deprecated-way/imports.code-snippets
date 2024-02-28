@@ -1,18 +1,4 @@
 {
-  "Accordion": {
-    "prefix": ["shadcn-i-accordion", "cni-accordion"],
-    "body": [
-      "import {",
-      "  Accordion,",
-      "  AccordionContent,",
-      "  AccordionItem,",
-      "  AccordionTrigger,",
-      "} from \"@/components/ui/accordion\"",
-      ""
-    ],
-    "description": "https://ui.shadcn.com/docs/components"
-  },
-
   "Alert Dialog": {
     "prefix": ["shadcn-i-alert-dialog", "cni-alert-dialog"],
     "body": [
