@@ -1,7 +1,7 @@
+.gitignore
+.prettierrc
+
 .vscode/**
 .vscode-test/**
-.gitignore
-
-*.tsx
-
-src/
+node_modules/**
+src/**
