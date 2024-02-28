@@ -9,7 +9,7 @@ Install the extension given below and easily import and use shadcn-ui components
 
 [https://marketplace.visualstudio.com/items?itemName=VeroXyle.shadcn-ui-snippets](https://rdt.li/shadcn-ui-snippets)
 
-![shadcn-ui-snippets-example](https://raw.githubusercontent.com/nrjdalal/shadcn-ui-snippets/main/images/usage.jpg)
+![shadcn-ui-snippets-example](https://raw.githubusercontent.com/nrjdalal/shadcn-ui-snippets/main/src/images/usage.jpg)
 
 ### How it works
 

@@ -4,8 +4,6 @@ import fs from "fs"
 
 const files = fs.readdirSync("src/components")
 
-console.log(files)
-
 const importJson = {}
 const usageJson = {}
 
