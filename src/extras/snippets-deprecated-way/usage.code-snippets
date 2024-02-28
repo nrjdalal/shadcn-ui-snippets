@@ -1,28 +1,4 @@
 {
-  "Alert Dialog": {
-    "prefix": ["shadcn-x-alert-dialog", "cnx-alert-dialog"],
-    "body": [
-      "<AlertDialog>",
-      "  <AlertDialogTrigger>Open</AlertDialogTrigger>",
-      "  <AlertDialogContent>",
-      "    <AlertDialogHeader>",
-      "      <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>",
-      "      <AlertDialogDescription>",
-      "        This action cannot be undone. This will permanently delete your account",
-      "        and remove your data from our servers.",
-      "      </AlertDialogDescription>",
-      "    </AlertDialogHeader>",
-      "    <AlertDialogFooter>",
-      "      <AlertDialogCancel>Cancel</AlertDialogCancel>",
-      "      <AlertDialogAction>Continue</AlertDialogAction>",
-      "    </AlertDialogFooter>",
-      "  </AlertDialogContent>",
-      "</AlertDialog>",
-      ""
-    ],
-    "description": "https://ui.shadcn.com/docs/components"
-  },
-
   "Aspect Ratio": {
     "prefix": ["shadcn-x-aspect-ratio", "cnx-aspect-ratio"],
     "body": [

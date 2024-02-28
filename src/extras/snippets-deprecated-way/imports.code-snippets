@@ -1,23 +1,4 @@
 {
-  "Alert Dialog": {
-    "prefix": ["shadcn-i-alert-dialog", "cni-alert-dialog"],
-    "body": [
-      "import {",
-      "  AlertDialog,",
-      "  AlertDialogAction,",
-      "  AlertDialogCancel,",
-      "  AlertDialogContent,",
-      "  AlertDialogDescription,",
-      "  AlertDialogFooter,",
-      "  AlertDialogHeader,",
-      "  AlertDialogTitle,",
-      "  AlertDialogTrigger,",
-      "} from \"@/components/ui/alert-dialog\"",
-      ""
-    ],
-    "description": "https://ui.shadcn.com/docs/components"
-  },
-
   "Aspect Ratio": {
     "prefix": ["shadcn-i-aspect-ratio", "cni-aspect-ratio"],
     "body": [
