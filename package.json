@@ -46,19 +46,19 @@
       },
       {
         "language": "javascriptreact",
-        "path": "./extras/help.code-snippets"
+        "path": "./src/extras/help.code-snippets"
       },
       {
         "language": "typescriptreact",
-        "path": "./extras/help.code-snippets"
+        "path": "./src/extras/help.code-snippets"
       },
       {
         "language": "javascriptreact",
-        "path": "./extras/pages.code-snippets"
+        "path": "./src/extras/pages.code-snippets"
       },
       {
         "language": "typescriptreact",
-        "path": "./extras/pages.code-snippets"
+        "path": "./src/extras/pages.code-snippets"
       },
       {
         "language": "javascriptreact",

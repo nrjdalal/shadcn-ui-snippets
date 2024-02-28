@@ -4,6 +4,8 @@ import fs from "fs"
 
 const files = fs.readdirSync("src/components")
 
+console.log(files)
+
 const importJson = {}
 const usageJson = {}
 
@@ -54,8 +56,6 @@ for (const file of files) {
     })
   })
 }
-
-// mkdir dist && write json to components.code-snippets
 
 fs.mkdirSync("dist", { recursive: true })
 fs.writeFileSync(
