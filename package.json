@@ -16,14 +16,17 @@
     "Snippets"
   ],
   "keywords": [
-    "shadcn",
-    "shadcn-ui",
+    "javascript snippets",
+    "nextjs snippets",
+    "react snippets",
     "shadcn-ui-snippet",
     "shadcn-ui-snippets",
+    "shadcn-ui",
+    "shadcn",
+    "shadcn/ui",
+    "shadcnui",
     "snippet",
     "snippets",
-    "react snippets",
-    "javascript snippets",
     "typescript snippets"
   ],
   "contributes": {
