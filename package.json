@@ -4,7 +4,7 @@
   "publisher": "VeroXyle",
   "description": "Simply import and use shadcn-ui components in your project",
   "icon": "dist/icon.png",
-  "version": "7.0.0",
+  "version": "8.0.0",
   "engines": {
     "vscode": "^1.83.0"
   },
