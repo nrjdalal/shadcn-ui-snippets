@@ -33,6 +33,10 @@ for (const file of files) {
         ? [`cni-${name}`, `shadcn-i-${name}`]
         : type === "default"
         ? [`cnx-${name}`, `shadcn-x-${name}`]
+        : type === "state"
+        ? [`cns-${name}`, `shadcn-s-${name}`]
+        : type === "zod"
+        ? [`cnz-${name}`, `shadcn-z-${name}`]
         : [
             `cnx-${name}-${type.replace(/ /g, "-")}`,
             `shadcn-x-${name}-${type.replace(/ /g, "-")}`,

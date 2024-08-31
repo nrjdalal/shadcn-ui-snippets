@@ -1,7 +1,7 @@
 import -
 
 ```jsx
-import { Toaster } from "@/components/ui/toaster"
+import { Toaster } from "@/components/ui/sonner"
 ```
 
 ---
