@@ -1,12 +1,12 @@
 {
-  "name": "shadcn-ui-snippets",
-  "displayName": "shadcn/ui snippets",
-  "publisher": "VeroXyle",
+  "name": "shadcn-ui-next",
+  "displayName": "shadcn/next",
+  "publisher": "nrjdalal",
   "description": "Simply import and use shadcn-ui components in your project",
   "icon": "dist/icon.png",
-  "version": "12.0.0",
+  "version": "1.0.0",
   "engines": {
-    "vscode": "^1.83.0"
+    "vscode": "^1.4.9"
   },
   "scripts": {
     "generate": "rm -rf ./dist/ && bun src/scripts/generate.js && cp ./src/extras/* ./dist/ && cp ./src/images/* ./dist/ && bunx prettier --write ./dist/*.code-snippets",
@@ -19,9 +19,9 @@
     "javascript snippets",
     "nextjs snippets",
     "react snippets",
-    "shadcn-ui-snippet",
-    "shadcn-ui-snippets",
-    "shadcn-ui",
+    "shadcn ui snippet",
+    "shadcn ui snippets",
+    "shadcn ui",
     "shadcn",
     "shadcn/ui",
     "shadcnui",
