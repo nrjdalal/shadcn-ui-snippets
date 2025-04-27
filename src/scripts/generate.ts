@@ -1,6 +1,6 @@
 #!/usr/bin/env bun
 
-import fs from "fs"
+import fs from "node:fs"
 
 const files = fs.readdirSync("src/components")
 
@@ -11,7 +11,7 @@ for (const file of files) {
   const name = file.split(".")[0]
   const fileContent = fs.readFileSync(`src/components/${file}`, "utf8")
 
-  let modifyContent = fileContent.split("---").map((s) =>
+  let modifyContent: any = fileContent.split("---").map((s) =>
     s
       .trim()
       .split(" -\n\n```jsx\n")
@@ -64,13 +64,13 @@ for (const file of files) {
 const importJsonSorted = Object.fromEntries(
   Object.entries(importJson)
     .sort()
-    .filter(([key, value]) => value.body[0] !== "")
+    .filter(([, value]) => (value as { body: string[] }).body[0] !== "")
 )
 
 const usageJsonSorted = Object.fromEntries(
   Object.entries(usageJson)
     .sort()
-    .filter(([key, value]) => value.body[0] !== "")
+    .filter(([, value]) => (value as { body: string[] }).body[0] !== "")
 )
 
 fs.mkdirSync("dist", { recursive: true })
