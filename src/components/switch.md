@@ -2,6 +2,7 @@ import -
 
 ```jsx
 import { Switch } from "@/components/ui/switch"
+import { Label } from "@/components/ui/label"
 ```
 
 ---
@@ -9,5 +10,6 @@ import { Switch } from "@/components/ui/switch"
 default -
 
 ```jsx
-<Switch />
+<Switch id="airplane-mode" />
+<Label htmlFor="airplane-mode">Airplane Mode</Label>
 ```
