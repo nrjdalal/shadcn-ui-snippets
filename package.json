@@ -73,6 +73,6 @@
     "url": "https://github.com/nrjdalal/shadcn-ui-snippets/issues"
   },
   "devDependencies": {
-    "@types/node": "^22.15.2"
+    "@types/node": "^25.0.0"
   }
 }
